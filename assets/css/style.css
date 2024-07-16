@@ -1,0 +1,15 @@
+/* Asterisk wild card selector */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*General Rules*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #666363;
