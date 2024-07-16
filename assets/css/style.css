@@ -14,3 +14,19 @@ body {
     flex-direction: column;
     color: #666363;
 }
+
+/* Header */
+header {
+    background-color: aqua;
+}
+
+/* Main */
+main {
+    background-color: #666363;
+    flex: 1 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: blueviolet;
+}
