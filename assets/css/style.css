@@ -88,6 +88,32 @@ nav {
     text-align: center;
 }
 
+#welcome h1 {
+    font-size: 40px;
+}
+
+#welcome p {
+    font-size: 15px;
+    margin: 12px 0 30px;
+}
+
+#readm {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #0000ff;
+    padding: 10px 35px;
+    font-size: 12px;
+    background: #0000ff;
+    position: relative;
+    cursor: pointer;
+}
+
+#readm:hover {
+    border: 1px solid #cb0505;
+    background: #cb0505;
+    transition: 0.5s;
+}
 .main {
     background-color: aqua;
     flex: 1 0 auto;
