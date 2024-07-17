@@ -14,25 +14,20 @@
 
 
 /*General Rules*/
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    color: #666363;
-}
+
 
 /* Header */
-header {
-    background-color: aqua;
+
+H1 {
+    font-family: "Roboto", sans-serif;
 }
 
-/* Main */
-main {
-    background-color: whitesmoke;
-    flex: 1 0 auto;
+.maincover {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7, rgba(4,9,30.0.7)), url(assets/images/twocourts.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
-/* Footer */
-footer {
-    background-color: burlywood;
-}
