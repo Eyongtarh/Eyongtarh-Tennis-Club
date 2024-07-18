@@ -33,14 +33,14 @@
                 </h1>
             </a>
             <div id="nav-bar">
-                <i class="fa fa-times"></i>
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html" class="active">Home</a></li>
                     <li><a href="service.html">Services</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
-            <i class="fa fa-bars"></i>
+            <i class="fa fa-bars" onclick="showMenu"></i>
         </nav>
         <div id="welcome">
             <h1>Best Tennis Club In Town</h1>
@@ -67,6 +67,17 @@
             Footer
         </div>
     </section>
+
+    <!-- Javascript for toggle menu -->
+    <script>
+        let navlink = document.getElementById("nav-bar");
+        function showMenu(){
+            navlink.style.right="0"
+        }
+        function hideMenu(){
+            navlink.style.right="-200px"
+        }
+    </script>
 
 </body>
 
