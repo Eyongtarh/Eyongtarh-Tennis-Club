@@ -126,7 +126,7 @@ nav {
     height: 3em;
 }
 
-/* media queries */
+/* media query: phone (700px and down*/
 
 @media(max-width: 700px) {
 
@@ -163,8 +163,7 @@ nav {
     }
 }
 
-@media(min-width: 700px){
-nav i{
-    display; none;
-}
+/* media query: for toggle tag no display (701px and up*/
+@media(min-width: 700px) {
+
 }
