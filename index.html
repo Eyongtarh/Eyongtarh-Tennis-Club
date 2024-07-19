@@ -39,7 +39,7 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
-            <i class="fa-solid fa-bars" onclick="showMenu"></i>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
         </nav>
         <div id="welcome">
             <h1>Best Tennis Club In Town</h1>
@@ -69,12 +69,12 @@
 
     <!-- Javascript for toggle menu -->
     <script>
-        let navlink = document.getElementById("nav-bar");
+        let navLink = document.getElementById("nav-bar");
         function showMenu(){
-            navlink.style.right="0"
+            navLink.style.right = "0";
         }
         function hideMenu(){
-            navlink.style.right="-200px"
+            navLink.style.right = "-200px";
         }
     </script>
 
