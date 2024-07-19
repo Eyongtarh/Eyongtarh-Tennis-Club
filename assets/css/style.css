@@ -125,7 +125,7 @@ nav {
     height: 3em;
 }
 
-nav .fa {
+nav i{
     display: none;
 }
 
@@ -149,11 +149,11 @@ nav .fa {
         z-index: 2;
         transition: 1s;
     }
-    nav .fa{
+    nav i{
         display: block;
         color: #ffffff;
         margin: 10px;
-        font-size: 24px;
+        font-size: 26px;
         cursor: pointer;
     }
     #nav-bar ul{
