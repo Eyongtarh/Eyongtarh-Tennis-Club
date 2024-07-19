@@ -117,7 +117,6 @@ nav {
 }
 
 .courts {
-    background-color: #ffffff;
     flex: 1 0 auto;
     width: 70%;
     margin: auto;
@@ -125,28 +124,34 @@ nav {
     padding: 100px;
 }
 
+p {
+    padding: 10px;
+}
+
 .c-types {
     margin-top: 4%;
     display: flex;
     justify-content: space-between;
+    transition : 0.5s;
+    
 }
 
 .all-courts {
     flex-basis: 31%;
-    background-color: #ddcdcd;
+    background-color: #f0ebeb;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 18px 12px;
     box-sizing: border-box;
-
 }
 
-.clayc {
-
+h3 {
+    padding: 10px 0;
+    text-align: center;
 }
 
-.hardc {
-
+.c-types :hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
 .footer {
