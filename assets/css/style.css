@@ -116,9 +116,37 @@ nav {
     transition: 0.5s;
 }
 
-.main {
-    background-color: aqua;
+.courts {
+    background-color: #ffffff;
     flex: 1 0 auto;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+}
+
+.c-types {
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-courts {
+    flex-basis: 31%;
+    background-color: #ddcdcd;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 18px 12px;
+    box-sizing: border-box;
+
+}
+
+.clayc {
+
+}
+
+.hardc {
+
 }
 
 .footer {
@@ -133,6 +161,7 @@ nav {
 #togg {
     display: none;
 }
+
 /* media query: phone (700px and down*/
 
 @media(max-width: 700px) {
@@ -170,11 +199,10 @@ nav {
     }
 
     #tog {
-        display:block;
+        display: block;
     }
-    
+
     #togg {
         display: block;
+    }
 }
-
-/* media query: for toggle tag no display (701px and up*/
