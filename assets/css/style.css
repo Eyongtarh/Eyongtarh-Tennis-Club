@@ -116,6 +116,8 @@ nav {
     transition: 0.5s;
 }
 
+/* Section one, Body, Type of courts */
+
 .courts {
     width: 80%;
     margin: auto;
@@ -146,6 +148,28 @@ p {
 h3 {
     padding: 10px;
     text-align: center;
+}
+
+/* Section Two, Body, Court surfaces */
+
+.diff-courts {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.all-diff {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.all-diff img {
+    width: 100%;
 }
 
 .footer {
@@ -207,4 +231,5 @@ h3 {
 
     .c-types {
         flex-direction: column;
+} 
 }
