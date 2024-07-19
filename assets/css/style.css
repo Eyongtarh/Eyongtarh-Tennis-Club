@@ -126,6 +126,13 @@ nav {
     height: 3em;
 }
 
+#tog {
+    display: none;
+}
+
+#togg {
+    display: none;
+}
 /* media query: phone (700px and down*/
 
 @media(max-width: 700px) {
@@ -161,9 +168,13 @@ nav {
     #nav-bar ul {
         padding: 30px;
     }
+
+    #tog {
+        display:block;
+    }
+    
+    #togg {
+        display: block;
 }
 
 /* media query: for toggle tag no display (701px and up*/
-@media(min-width: 700px) {
-
-}
