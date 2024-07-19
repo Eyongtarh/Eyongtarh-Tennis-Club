@@ -160,15 +160,15 @@ h3 {
 
 }
 
-.all-diff {
+.hardcourts {
     flex-basis: 32%;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     position: relative;
     overflow: hidden;
 }
 
-.all-diff img {
+.hardcourts img {
     width: 100%;
 }
 
