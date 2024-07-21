@@ -120,6 +120,7 @@ nav {
 
 .courts {
     width: 80%;
+    flex: 1 o auto;
     margin: auto;
     text-align: center;
     padding: 50px;
@@ -222,18 +223,12 @@ h3 {
 .footer {
     width: 100%;
     text-align: center;
+    margin: auto;
     padding: 10px;
 }
 
 .footer h3 {
     color: #000000;
-}
-
-.contact {
-    margin-top: 4%;
-    display: flex;
-    justify-content: space-between;
-    
 }
 
 .all-contact {
@@ -317,4 +312,7 @@ h3 {
         padding-left: 37px;
     }
 
+    .footer {
+        padding-left: 0;
+    }
 }
