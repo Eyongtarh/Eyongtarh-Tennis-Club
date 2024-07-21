@@ -122,9 +122,10 @@ nav {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding: 100px;
+    padding: 50px;
     
 }
+
 
 p {
     padding: 10px;
@@ -150,9 +151,10 @@ p {
 h3 {
     padding: 10px;
     text-align: center;
+    color: #bd2020;
 }
 .all-courts:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.3);
+    box-shadow: 0 0 20px 0px rgba(243, 94, 94, 0.3);
 }
 
 
@@ -166,6 +168,10 @@ h3 {
 
 }
 
+.diff-courts h3 {
+    color: #000000;
+}
+
 .hardcourts {
     flex-basis: 32%;
     border-radius: 10px;
@@ -176,6 +182,7 @@ h3 {
 
 .hardcourts img {
     width: 100%;
+    display: block;
 }
 
 .hcover {
@@ -191,6 +198,23 @@ h3 {
 
 .hcover:hover {
     background: rgba(93, 93, 169, 0.6);
+}
+
+.hcover h3 {
+    width: 100%;
+    color: #ffffff;
+    bottom: 0;
+    font-size: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.hcover:hover h3 {
+    bottom: 48%;
+    opacity: 1;
 }
 
 
