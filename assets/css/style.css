@@ -241,6 +241,10 @@ h3 {
     color: #bd2020;
  }
 
+ .all-contact h5 {
+    padding-top: 15px;
+ }
+
 #social-networks {
     padding-top: 15px;
     display: flex;
