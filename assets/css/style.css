@@ -126,7 +126,7 @@ nav {
     transition: 0.5s;
 }
 
-/* Section one, Body, Type of courts */
+/* Section one, index.html Body, Type of courts */
 
 .courts {
     width: 80%;
@@ -168,6 +168,61 @@ h3 {
     box-shadow: 0 0 20px 0px rgba(243, 94, 94, 0.3);
 }
 
+/* Section one, service.html Body, Areas of Operation */
+
+.services {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.services h1 {
+    padding-top: 50px;
+}
+
+.operation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+button {
+    margin: 30px 40px;
+    background-color: #0000ff;
+    color: #ffffff;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 15px 50px;
+    border-radius: 10px;
+    border: none;
+    box-shadow:  0 0 20px 0px rgba(243, 94, 94, 0.3);
+}
+
+button:hover {
+    background: #cb0505;
+    transition: 0.5s;
+}
+
+#all-trainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.trainer {
+    margin-top: 50px;
+    background-color: #f0ebeb;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 12px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.trainer:hover {
+    box-shadow: 0 0 20px 0px rgba(243, 94, 94, 0.3);
+}
 
 /* Section Two, Body, Court surfaces */
 
