@@ -218,6 +218,7 @@ h3 {
     opacity: 1;
 }
 
+/* Section Footer */
 
 .footer {
     width: 100%;
@@ -233,7 +234,6 @@ h3 {
 .all-contact {
     flex-basis: 33%;
     background-color: rgba(93, 93, 169, 0.6);
-    margin-bottom: 5%;
     padding: 10px 4px;
 }
  .all-contact h3 {
@@ -254,6 +254,7 @@ h3 {
 #social-networks i {
     font-size: 160%;
     padding: 10px;
+
 }
 
 #tog {
