@@ -60,10 +60,9 @@
             <div class="reach-t">
                 <div class="reach-l">
                     <h3>Locate Us</h3>
-                    <p> Our grass court is in a warm climate region. Generally, it is advicable
-                        for grass tennis courts with such climatic conditions to use
-                        bermudagrass. This is the main reason our grass court is bermudagrass
-                        as it is drought tolerant. Out door only.</p>
+                    <iframe>
+                        
+                    </iframe>
                 </div>
                 <div>
                     <h3>Exercise Drill</h3>
@@ -75,11 +74,34 @@
 
             </div>
             <div class="reach-t">
-                <h3>Book Time</h3>
-                <p>Our clay court is made of TOP CLAY® technology.It is designed to withstand
-                    intensive outdoor use, all year round. The unique technology of TOP CLAY® creates
-                    an uniform, homogeneous and attractive hybrid clay tennis court. This helps to
-                    prevents holes and cracks in the surface. Out door only.</p>
+                <h3><i class="fa-solid fa-baseball"></i> Book Time!</h3>
+                <form id="booking" method="POST" action="https://formdump.codeinstitute.net">
+                    <div>
+                        <label for="first_name">First Name</label>
+                        <input type="text" name="first_name" id="first_name" class="text-input" required />
+                        <br />
+                        <label for="last_name">Last Name</label>
+                        <input type="text" name="last_name" id="last_name" class="text-input" required />
+                        <br />
+                        <label for="email_address">Email Address</label>
+                        <input type="email" name="email_address" id="email_address" class="text-input" required />
+                        <br />
+                    </div>
+                    <div>
+                        <label for="service-type">Type of Service</label>
+                        <input id="service-type" list="services" name="service-type" required>
+                        <datalist id="services">
+                            <option value="Children Trainer">
+                            <option value="Adult Trainer">
+                        </datalist>
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" name="service-type" id="both" value="both" />
+                    </div>
+
+                    <button type="submit" class="join-button">Book Time</button>
+                </form>
             </div>
         </div>
     </section>
