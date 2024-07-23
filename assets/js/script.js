@@ -12,20 +12,20 @@ function hideMenu() {
 
 /* To toggle pages in section one service.html*/
 
-function showPage(coach){
+function showPage(coach) {
 
-let nodeList = document.querySelectorAll(".trainer");
-for (let i = 0; i < nodeList.length; i++) {
-  nodeList[i].style.display = "none";
-}
-        document.querySelector(`#${coach}`).style.display = "block";
+    let nodeList = document.querySelectorAll(".trainer");
+    for (let i = 0; i < nodeList.length; i++) {
+        nodeList[i].style.display = "none";
     }
+    document.querySelector(`#${coach}`).style.display = "block";
+}
 
-    document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     let nodeList = document.querySelectorAll("button");
     for (let i = 0; i < nodeList.length; i++) {
         nodeList[i].onclick = function () {
             showPage(this.dataset.coach);
-                            }
-                        }
-                    })
+        }
+    }
+})
