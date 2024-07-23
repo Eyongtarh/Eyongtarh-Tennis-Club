@@ -280,7 +280,9 @@ button:hover {
 .reach-t iframe {
     border-radius: 10px;
 }
-
+ .reach-t i {
+    color: #0000ff;
+ }
 .reach-t video {
     border-radius: 10px;
 }
