@@ -277,6 +277,13 @@ button:hover {
     box-shadow: 0 0 20px 0px rgba(243, 94, 94, 0.3);
 }
 
+.reach-t iframe {
+    border-radius: 10px;
+}
+
+.reach-t video {
+    border-radius: 10px;
+}
 .reach-l {
     flex-direction: column;
 }
@@ -285,9 +292,6 @@ button:hover {
     margin-top: 4em;
 }
 
-#exerc {
-    border-radius: 10px;
-}
 /* Section Two, Body, Court surfaces */
 
 .diff-courts {
