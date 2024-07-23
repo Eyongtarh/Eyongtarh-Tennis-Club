@@ -280,12 +280,15 @@ button:hover {
 .reach-t iframe {
     border-radius: 10px;
 }
- .reach-t i {
+
+.reach-t i {
     color: #0000ff;
- }
+}
+
 .reach-t video {
     border-radius: 10px;
 }
+
 .reach-l {
     flex-direction: column;
 }
@@ -462,5 +465,15 @@ button:hover {
 
     .reach-us {
         padding-left: 20px;
+    }
+
+    .reach-t iframe {
+        border-radius: 10px;
+        width: 300px;
+    }
+
+    .reach-t video {
+        border-radius: 10px;
+        width: 300px;
     }
 }
