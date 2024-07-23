@@ -391,4 +391,7 @@ button:hover {
         padding-left: 0;
     }
     
+    .operation {
+        flex-direction: column;
+    }
 }
