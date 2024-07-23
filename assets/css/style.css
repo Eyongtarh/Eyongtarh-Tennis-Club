@@ -85,7 +85,7 @@ nav {
     width: 0%;
     height: 2px;
     display: block;
-    background: #cb0505;
+    background: #bd2020;
     margin: auto;
     transition: 0.5s;
 }
@@ -133,17 +133,17 @@ nav {
     display: inline-block;
     text-decoration: none;
     color: #ffffff;
-    border: 1px solid #0000ff;
+    border: 1px solid #3535de;
     padding: 10px 35px;
     font-size: 12px;
-    background: #0000ff;
+    background: #3535de;
     position: relative;
     cursor: pointer;
 }
 
 #readm:hover {
-    border: 1px solid #cb0505;
-    background: #cb0505;
+    border: 1px solid #bd2020;
+    background: #bd2020;
     transition: 0.5s;
 }
 
@@ -211,7 +211,7 @@ h3 {
 
 button {
     margin: 30px 40px;
-    background-color: #0000ff;
+    background-color: #3535de;
     color: #ffffff;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -223,7 +223,7 @@ button {
 }
 
 button:hover {
-    background: #cb0505;
+    background: #bd2020;
     transition: 0.5s;
 }
 
@@ -282,7 +282,7 @@ button:hover {
 }
 
 .reach-t i {
-    color: #0000ff;
+    color: #3535de;
 }
 
 .reach-t video {
@@ -469,11 +469,11 @@ button:hover {
 
     .reach-t iframe {
         border-radius: 10px;
-        width: 300px;
+        width: 290px;
     }
 
     .reach-t video {
         border-radius: 10px;
-        width: 300px;
+        width: 290px;
     }
 }
