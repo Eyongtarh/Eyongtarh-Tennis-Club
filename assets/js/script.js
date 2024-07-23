@@ -1,3 +1,5 @@
+/* To toggle the Menu bar, open and close*/
+
 let navLink = document.getElementById("nav-bar");
 
 function showMenu() {
@@ -7,6 +9,8 @@ function showMenu() {
 function hideMenu() {
     navLink.style.right = "-200px";
 }
+
+/* To toggle pages in section one service.html*/
 
 function showPage(coach){
 
