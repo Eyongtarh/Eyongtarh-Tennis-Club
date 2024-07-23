@@ -253,6 +253,28 @@ button:hover {
     display: none;
 }
 
+/* Section one, book.html Body, Book time */
+
+.reach-us {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.reach-t {
+    flex-basis: 49%;
+    background-color: #f0ebeb;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 12px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.reach-t:hover {
+    box-shadow: 0 0 20px 0px rgba(243, 94, 94, 0.3);
+}
 /* Section Two, Body, Court surfaces */
 
 .diff-courts {
