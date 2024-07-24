@@ -45,27 +45,37 @@ positive respond to use.
 
 ### Lighthouse
 
-The accessibility rating in light house is OK.
+The accessibility rating in lighthouse is OK. The lighthouse test for the three pages is shown below:
+
 <a>
-<img src="../images/carweld.jpeg" alt="" width="" height="" border="">
+<img src="assets/images/hom.jpeg" alt="" width="250" height="200" border="2">
+<img src="assets/images/hom.jpeg" alt="" width="250" height="200" border="2">
+<img src="assets/images/hom.jpeg" alt="" width="250" height="200" border="2">
 </a>
 
 ### Media Queries 
 
-The site works on different screen sizes but not perfectly. This is partly because 
-I commented out the media queries made in the stylesheet. BUt mainly because the 
-queries work for specific sizes and not for ranges.
+The site works on different screen sizes and therefore, it is fully responsive. The ui.dev/amiresponsive was used to test for site responsiveness. A photo and a link is presented below:
+
+<a>
+<img src="assets/images/resp.jpeg" alt="" width="250" height="200" border="2">
+</a>
+
+Check out <a href="https://ui.dev/amiresponsive?url=https://eyongtarh.github.io/Eyongtarh-Tennis-Club/" target="_blank">Site Responsiveness</a> by ui.dev/amiresponsive.
 
 ### Validation Testing
 
--HTML shows one bug error returned when passing through the official W3C validator.
+-The HTML validator returned no errors when passing through the official W3C validator. The link to input the values to be tested is below.
 
--CSS show no errors when passing through the official (Jigsaw) validator.
+Check out <a href="https://validator.w3.org/detailed.html" target="_blank">HTML Validator</a>
 
-Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-<a>
-<img src="../images/carweld.jpeg" alt="" width="" height="" border="">
-</a>
+-The CSS validator shows no errors when passing through the official (Jigsaw) validator. The link to input the values to be tested is below.
+
+Check out <a href="https://jigsaw.w3.org/css-validator/" target="_blank"> CSS Validator</a>
+
+-The Js
+
+Check out <a href="https://jigsaw.w3.org/css-validator/" target="_blank"> Js Validator</a>
 
 ### Unfixed Bugs
 
