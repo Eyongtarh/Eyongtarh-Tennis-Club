@@ -1,131 +1,96 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Eyongtarh Besong,
+# Eyongtarh Tennis Club
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[Link to Eyongtarh Tennis Club](https://eyongtarh.github.io/Eyongtarh-Tennis-Club/)
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+Eyongtarh Tennis Club is a club designed to help train children and adult lawn tennis skills from beginners to professional levels. The club also takes into consideration the fitness training of the trainees.
 
-## Gitpod Reminders
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Header
 
-`python3 -m http.server`
+The header includes the name : Eyongtarh Tennis Club as logo. This logo has a link to the home page. The header also includes a navigation bar. The navigation bar accommodates the links to the three pages: Home, Services, and book time. The second part of the header incledes a welcome message for visitors or member to enjoy the club's resort and services.The last part is an anchor: "Read More" and this in the home page is linked to the service page, and in the service page, its linked to the book time page, and in the book time page, its linked to the service page. 
 
-A blue button should appear to click: _Make Public_,
+### Home 
 
-Another blue button should appear to click: _Open Browser_.
+Here, a not explaining the types of tennis courts available is displayed in three different columns.
+It also highlights the nature of the courts and placement in relation to the surfaces which are clay court,
+hard court and grass court. The second part of home page is made of pictures of the three different courts.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+### Services
 
-A blue button should appear to click: _Make Public_,
+The services page is the second page it indicates that indicates the club providing training to children, 
+recreational players, and competitive players. The three different training models are well explaine in this section
+The second part of this page provides pictures of the different trainees.
 
-Another blue button should appear to click: _Open Browser_.
+### Bookin Time
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+This is the third and final page. The first column in section one contains a map location for Gothenburg town and a video example of tennis exercise drill. The second column provides a form to fill in first name and last name. It also contains a datalist booking form which indicates if someone is in need of childen trainer or adult trainer. It also contains a checkbox for those who are in need of both services. The second section is made up of pictures of other facilities in the club: play ground, swimming pool, and a gym for fitness.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Contact information
+The address, email address and telephone number of the club is include in the footer section at the bottom of each page.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+### The footer
 
-### Connecting your Mongo database
+The footer contains three different features. The first are links to social media websites which opens in a 
+new page: Twitter, YouTube, Instagram, and Facebook. And lastly, a copyrights statement. The second and third sections contains the contact information and opening hours respectively.
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+## Testing
 
-------
+### Within Page
 
-## Release History
+The links included in the page works perfectly.The booking form also shows a 
+positive respond to use.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Lighthouse
 
-**June 18, 2024,** Add Mongo back into template
+The accessibility rating in light house is OK.
+<a>
+<img src="../images/carweld.jpeg" alt="" width="" height="" border="">
+</a>
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+### Media Queries 
 
-**May 28 2024:** Fix Mongo and Links installs
+The site works on different screen sizes but not perfectly. This is partly because 
+I commented out the media queries made in the stylesheet. BUt mainly because the 
+queries work for specific sizes and not for ranges.
 
-**April 26 2024:** Update node version to 16
+### Validation Testing
 
-**September 20 2023:** Update Python version to 3.9.17.
+-HTML shows one bug error returned when passing through the official W3C validator.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+-CSS show no errors when passing through the official (Jigsaw) validator.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+<a>
+<img src="../images/carweld.jpeg" alt="" width="" height="" border="">
+</a>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Unfixed Bugs
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+One unfixed bug from HTMl which stating that I place a butting inside an ancnor
+element. This does not have any problem on page so its ignored.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Deployment
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+This site is deployed to GitHub pages. Theprocedure is viz:
+-Go to GitHub repository and click on Settings.
+-At the left side, click on pages.
+-At the source section drop-down menu, select the Master Branch
+-At this point, click save, the page will be automatically refreshed.
+-A links will be available and indicate the successful deployment.
+-If not , refresh the page.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Credits
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+I got some material from the Love running project, course conten, Wikipedia.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Content
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+I used font awesome, Google fonts, 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Media
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+Favicon image is mine. Background images and images used within pages are from 
+pixel. 
