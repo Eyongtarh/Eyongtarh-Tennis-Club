@@ -76,36 +76,37 @@
                 <form id="booktime" method="POST" action="https://formdump.codeinstitute.net" enctype="multipart/form-data">
                     <div>
                         <label for="first_name">First Name</label>
-                        <input id="first_name" type="text" name="first_name" class="text-input" required>
+                        <input id="first_name" type="text" name="first_name" class="text-input">
                         <div class="error-message" id="namef-error"></div>
                     </div>
                     <div>
                         <label for="last_name">Last Name</label>
-                        <input id="last_name" type="text" name="last_name" class="text-input" required>
+                        <input id="last_name" type="text" name="last_name" class="text-input">
                         <div class="error-message" id="namel-error"></div>
                     </div>
                     <div>
                         <label for="userpass1">Password:</label>
-                        <input id="userpass1" type="password" name="userpass1" class="text-input" required>
+                        <input id="userpass1" type="password" name="userpass1" class="text-input">
                         <div class="error-message" id="pass1-error"></div>
                     </div>
                     <div>
                         <label for="userpass2">Re Enter Password:</label>
-                        <input id="userpass2" type="password" name="userpass2" class="text-input" required>
+                        <input id="userpass2" type="password" name="userpass2" class="text-input">
                         <div class="error-message" id="pass2-error"></div>
                     </div>
                     <div>
                         <label for="email_address">Email Address</label>
-                        <input id="email_address" type="email" name="email_address" class="text-input" required>
+                        <input id="email_address" type="email" name="email_address" class="text-input">
                         <div class="error-message" id="email-error"></div>
                     </div>
                     <div>
                         <label for="service-type">Type of Service</label>
-                        <input id="service-type" list="services" name="service-type" required>
+                        <input id="service-type" list="services" name="service-type">
                         <datalist id="services">
                             <option value="Children Trainer">
                             <option value="Adult Trainer">
                         </datalist>
+                        <div class="error-message" id="service-error"></div>
                     </div>
                     <div>
                         <label for="both">Both</label>

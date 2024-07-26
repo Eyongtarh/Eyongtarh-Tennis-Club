@@ -32,29 +32,35 @@ document.addEventListener('DOMContentLoaded', function () {
 
 const form = document.getElementById("booktime");
 
-form.addEventListener("submit",(event)=> {
+form.addEventListener("submit", (event) => {
 
     const nameInputf = document.getElementById("first_name");
     const nameInputl = document.getElementById("last_name");
     const passWord1 = document.getElementById("userpass1");
     const passWord2 = document.getElementById("userpass2");
     const emailInput = document.getElementById("email_address");
+    const serviceInput = document.getElementById("service-type");
     const nameErrorf = document.getElementById("namef-error");
     const nameErrorl = document.getElementById("namel-error");
     const pass1Error = document.getElementById("pass1-error");
     const pass2Error = document.getElementById("pass2-error");
-    const emailError = document.getElementById("email_error");
+    const emailError = document.getElementById("email-error");
+    const serviceError = document.getElementById("service-error");
+
+    console.log("all gotten")
 
     nameErrorf.textContent = "";
     nameErrorl.textContent = "";
     pass1Error.textContent = "";
     pass2Error.textContent = "";
     emailError.textContent = "";
+    serviceError.textContent = "";
     nameInputf.classList.remove("error");
     nameInputl.classList.remove("error");
     passWord1.classList.remove("error");
     passWord2.classList.remove("error");
     emailInput.classList.remove("error");
+    serviceInput.classList.remove("error");
 
     if (nameInputf.value.trim() === "") {
         nameErrorf.textContent = "Please enter your first name.";
@@ -62,21 +68,27 @@ form.addEventListener("submit",(event)=> {
         event.preventDefault();
     }
 
+    if (nameInputl.value.trim() === "") {
+        nameErrorl.textContent = "Please enter your last name.";
+        nameInputl.classList.add("error");
+        event.preventDefault();
+    }
+
     if (passWord1.value.trim() === "") {
-        pass1Error.textContent = "Please enter your last name.";
+        pass1Error.textContent = "Please enter your password.";
         passWord1.classList.add("error");
         event.preventDefault();
     }
 
     if (passWord2.value.trim() === "") {
-        pass2Error.textContent = "Please enter your last name.";
+        pass2Error.textContent = "Please re-enter your password.";
         passWord2.classList.add("error");
         event.preventDefault();
     }
 
-    if (nameInputf.value.trim() === "") {
-        nameErrorf.textContent = "Please enter your first name.";
-        nameInputf.classList.add("error");
+    if (passWord1.value.trim() !== passWord2.value.trim()) {
+        pass2Error.textContent = "Please passwords doesn't match.";
+        passWord2.classList.add("error");
         event.preventDefault();
     }
 
@@ -88,6 +100,12 @@ form.addEventListener("submit",(event)=> {
     } else if (!/^\S+@\S+\.\S+$/.test(emailValue)) {
         emailError.textContent = "Please enter a valid email address.";
         emailInput.classList.add("error");
+        event.preventDefault();
+    }
+
+    if (serviceInput.value.trim() === "") {
+        serviceError.textContent = "Please choose a service.";
+        serviceInput.classList.add("error");
         event.preventDefault();
     }
 });

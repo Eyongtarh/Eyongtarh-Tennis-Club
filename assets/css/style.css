@@ -282,6 +282,7 @@ form div input {
 }
 
 .error-message {
+    flex-direction: column;
     color: #bd2020;
     font-size: 0.9rem;
 }
@@ -497,5 +498,17 @@ form div input {
     .reach-t video {
         border-radius: 10px;
         width: 290px;
+    }
+
+    #booktime {
+        padding: 10px 20px;
+    }
+}
+
+/* media query: (1200px and down*/
+
+@media(max-width: 1200px) {
+    .c-types {
+        flex-direction: column;
     }
 }
