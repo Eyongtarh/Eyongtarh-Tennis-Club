@@ -273,6 +273,23 @@ button:hover {
     transition: 0.5s;
 }
 
+form div input {
+    width: 100%;
+    border-radius: 8px;
+    height: 30px;
+    outline: none;
+    border: 2px solid #c4c4c4;
+}
+
+.error-message {
+    color: #bd2020;
+    font-size: 0.9rem;
+}
+
+.error {
+    border: 1px solid #bd2020;
+}
+
 .reach-t:hover {
     box-shadow: 0 0 20px 0px rgba(243, 94, 94, 0.3);
 }
@@ -293,10 +310,15 @@ button:hover {
     flex-direction: column;
 }
 
-#booking {
-    margin-top: 4em;
+#booktime {
+    margin-top: 0;
+    padding: 10px 150px;
+    text-align: left;
 }
 
+#booktime button {
+    margin: auto;
+}
 /* Section Two, Body, Court surfaces */
 
 .diff-courts {

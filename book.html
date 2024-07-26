@@ -73,17 +73,31 @@
             </div>
             <div class="reach-t">
                 <h3><i class="fa-solid fa-baseball"></i> Book Time!</h3>
-                <form id="booking" method="POST" action="https://formdump.codeinstitute.net">
+                <form id="booktime" method="POST" action="https://formdump.codeinstitute.net" enctype="multipart/form-data">
                     <div>
                         <label for="first_name">First Name</label>
-                        <input type="text" name="first_name" id="first_name" class="text-input" required>
-                        <br>
+                        <input id="first_name" type="text" name="first_name" class="text-input" required>
+                        <div class="error-message" id="namef-error"></div>
+                    </div>
+                    <div>
                         <label for="last_name">Last Name</label>
-                        <input type="text" name="last_name" id="last_name" class="text-input" required>
-                        <br><br>
+                        <input id="last_name" type="text" name="last_name" class="text-input" required>
+                        <div class="error-message" id="namel-error"></div>
+                    </div>
+                    <div>
+                        <label for="userpass1">Password:</label>
+                        <input id="userpass1" type="password" name="userpass1" class="text-input" required>
+                        <div class="error-message" id="pass1-error"></div>
+                    </div>
+                    <div>
+                        <label for="userpass2">Re Enter Password:</label>
+                        <input id="userpass2" type="password" name="userpass2" class="text-input" required>
+                        <div class="error-message" id="pass2-error"></div>
+                    </div>
+                    <div>
                         <label for="email_address">Email Address</label>
-                        <input type="email" name="email_address" id="email_address" class="text-input" required>
-                        <br><br>
+                        <input id="email_address" type="email" name="email_address" class="text-input" required>
+                        <div class="error-message" id="email-error"></div>
                     </div>
                     <div>
                         <label for="service-type">Type of Service</label>
@@ -93,12 +107,11 @@
                             <option value="Adult Trainer">
                         </datalist>
                     </div>
-                    <br>
                     <div>
                         <label for="both">Both</label>
-                        <input type="radio" name="service-type" id="both" value="both">
+                        <input id="both" type="radio" name="service-type" value="both">
                     </div>
-                    <button type="submit" class="join-button">Book Time</button>
+                    <button type="submit">Book Time</button>
                 </form>
             </div>
         </div>
