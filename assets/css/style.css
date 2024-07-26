@@ -507,7 +507,7 @@ form div input {
 
 /* media query: (1200px and down*/
 
-@media(max-width: 1200px) {
+@media(max-width: 1300px) {
     .c-types {
         flex-direction: column;
     }
