@@ -313,14 +313,44 @@ form div input {
 }
 
 #booktime {
-    margin-top: 0;
-    padding: 10px 150px;
+    margin: 0;
+    padding: 10px 80px;
     text-align: left;
+
 }
 
-#booktime button {
-    margin: auto;
+#bookbut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
 }
+
+#bookbut button {
+    padding: 7px 20px;
+}
+
+#bookbut a {
+    padding: 5px 20px;
+    text-decoration: none;
+    background-color: #3535de;
+    color: #ffffff;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 20px 0px rgba(243, 94, 94, 0.3);
+    
+}
+
+#bookbut a:hover {
+    background: #bd2020;
+    transition: 0.5s;
+}
+
 /* Section Two, Body, Court surfaces */
 
 .diff-courts {

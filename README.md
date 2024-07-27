@@ -94,7 +94,7 @@ This site is deployed to GitHub pages. Theprocedure is viz:
 
 ## Credits
 
-I got some material from the Love running project, course conten, Wikipedia and geeksforgeeks.org website.
+I got some material from the Love running project, course conten, Wikipedia , Kevin easy tutorials, Ullevi tennis club and geeksforgeeks.org website.
 
 ## Content
 
