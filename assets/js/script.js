@@ -33,7 +33,6 @@ document.addEventListener('DOMContentLoaded', function () {
 const form = document.getElementById("booktime");
 
 form.addEventListener("submit", (event) => {
-
     const nameInputf = document.getElementById("first_name");
     const nameInputl = document.getElementById("last_name");
     const passWord1 = document.getElementById("userpass1");
@@ -97,7 +96,7 @@ form.addEventListener("submit", (event) => {
         emailError.textContent = "Please enter your email address.";
         emailInput.classList.add("error");
         event.preventDefault();
-    } else if (!/^\S+@\S+\.\S+$/.test(emailValue)) {
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailValue)) {
         emailError.textContent = "Please enter a valid email address.";
         emailInput.classList.add("error");
         event.preventDefault();

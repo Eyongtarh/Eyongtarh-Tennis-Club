@@ -246,7 +246,7 @@ button:hover {
     box-shadow: 0 0 20px 0px rgba(243, 94, 94, 0.3);
 }
 
-/* Dont display recreationa player and competitive player*/
+/* Dont display recreationa player and competitive player so as to add javascript code to rotate them on click */
 
 #coach2,
 #coach3 {
@@ -386,6 +386,7 @@ form div input {
     text-align: center;
     margin: auto;
     padding: 10px 0px;
+    bottom: 0px;
 }
 
 .footer h3 {
@@ -416,8 +417,9 @@ form div input {
 #social-networks i {
     font-size: 160%;
     padding: 10px;
-
 }
+
+/* Style to remove toggle tags from screen size greater than 768px */
 
 #tog {
     display: none;
@@ -427,7 +429,7 @@ form div input {
     display: none;
 }
 
-/* media query: phone (768px and down*/
+/* media query: phone (768px and down */
 
 @media(max-width: 768px) {
     #welcome h1 {

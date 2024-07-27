@@ -71,16 +71,17 @@ Check out <a href="https://validator.w3.org/detailed.html" target="_blank">HTML 
 
 -The CSS validator shows no errors when passing through the official (Jigsaw) validator. The link to input the values to be tested is below.
 
-Check out <a href="https://jigsaw.w3.org/css-validator/" target="_blank"> CSS Validator</a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
 
--The Js
-
-Check out <a href="https://jigsaw.w3.org/css-validator/" target="_blank"> Js Validator</a>
+-The Js validator is also without errors.
 
 ### Unfixed Bugs
 
-One unfixed bug from HTMl which stating that I place a butting inside an ancnor
-element. This does not have any problem on page so its ignored.
+One unfixed bug with HTML. Small white line below the footer. I seem not to figure how to eliminate it yet. I have manipulated the bottom padding, margin and nothing works at the moment.
 
 ## Deployment
 
@@ -89,18 +90,18 @@ This site is deployed to GitHub pages. Theprocedure is viz:
 -At the left side, click on pages.
 -At the source section drop-down menu, select the Master Branch
 -At this point, click save, the page will be automatically refreshed.
--A links will be available and indicate the successful deployment.
+-A link will be available and indicate the successful deployment.
 -If not , refresh the page.
 
-### Credits
+## Credits
 
-I got some material from the Love running project, course conten, Wikipedia.
+I got some material from the Love running project, course conten, Wikipedia and geeksforgeeks.org website.
 
-### Content
+## Content
 
-I used font awesome, Google fonts, 
+I used font awesome and Google fonts.
 
-### Media
+## Media
 
-Favicon image is mine. Background images and images used within pages are from 
-pixel. 
+Favicon image, background images and images used within pages are from 
+pixel and my personal images and video.
