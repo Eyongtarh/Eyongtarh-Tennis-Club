@@ -45,7 +45,7 @@ positive respond to use.
 
 ### Lighthouse
 
-The accessibility rating in lighthouse is OK. The lighthouse test for the three pages is shown below:
+The accessibility rating in lighthouse is OK. The lighthouse test for the three pages: home, services and book-time is shown below respectively:
 
 <a>
 <img src="assets/images/hom.jpeg" alt="" width="250" height="200" border="2">
@@ -58,7 +58,7 @@ The accessibility rating in lighthouse is OK. The lighthouse test for the three 
 The site works on different screen sizes and therefore, it is fully responsive. The ui.dev/amiresponsive was used to test for site responsiveness. A photo and a link is presented below:
 
 <a>
-<img src="assets/images/resp.jpeg" alt="" width="250" height="200" border="2">
+<img src="assets/images/resp.jpeg" alt="" width="400" height="300" border="2">
 </a>
 
 Check out <a href="https://ui.dev/amiresponsive?url=https://eyongtarh.github.io/Eyongtarh-Tennis-Club/" target="_blank">Site Responsiveness</a> by ui.dev/amiresponsive.
@@ -70,7 +70,6 @@ Check out <a href="https://ui.dev/amiresponsive?url=https://eyongtarh.github.io/
 Check out <a href="https://validator.w3.org/detailed.html" target="_blank">HTML Validator</a>
 
 -The CSS validator shows no errors when passing through the official (Jigsaw) validator. The link to input the values to be tested is below.
-
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
     <img style="border:0;width:88px;height:31px"
         src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
@@ -81,7 +80,7 @@ Check out <a href="https://validator.w3.org/detailed.html" target="_blank">HTML 
 
 ### Unfixed Bugs
 
-One unfixed bug with HTML. Small white line below the footer. I seem not to figure how to eliminate it yet. I have manipulated the bottom padding, margin and nothing works at the moment.
+I have not noticed any unfixed bug at the moment.
 
 ## Deployment
 
