@@ -279,6 +279,7 @@ form div input {
     height: 30px;
     outline: none;
     border: 2px solid #c4c4c4;
+    padding-left: 1rem;
 }
 
 .error-message {
@@ -386,7 +387,8 @@ form div input {
     text-align: center;
     margin: auto;
     padding: 10px 0px;
-    bottom: 0px;
+    bottom: 0;
+    left: 0;
 }
 
 .footer h3 {
