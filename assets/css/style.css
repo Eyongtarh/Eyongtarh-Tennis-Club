@@ -546,4 +546,7 @@ form div input {
     .c-types {
         flex-direction: column;
     }
+    #booktime {
+        padding: 10px 200px;
+    }
 }
