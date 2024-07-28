@@ -462,9 +462,10 @@ form div input {
     display: none;
 }
 
-/* media query: (1200px and down*/
 
-@media(max-width: 1300px) {
+/* media query: (1280px and down) */
+
+@media(max-width: 1280px) {
     .c-types {
         flex-direction: column;
     }
