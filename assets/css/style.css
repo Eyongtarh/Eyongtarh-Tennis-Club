@@ -462,6 +462,17 @@ form div input {
     display: none;
 }
 
+/* media query: (1200px and down*/
+
+@media(max-width: 1300px) {
+    .c-types {
+        flex-direction: column;
+    }
+    #booktime {
+        padding: 10px 200px;
+    }
+}
+
 /* media query: phone (768px and down */
 
 @media(max-width: 768px) {
@@ -527,26 +538,14 @@ form div input {
 
     .reach-t iframe {
         border-radius: 10px;
-        width: 290px;
+        width: 280px;
     }
 
     .reach-t video {
         border-radius: 10px;
         width: 290px;
     }
-
     #booktime {
         padding: 10px 20px;
-    }
-}
-
-/* media query: (1200px and down*/
-
-@media(max-width: 1300px) {
-    .c-types {
-        flex-direction: column;
-    }
-    #booktime {
-        padding: 10px 200px;
     }
 }
