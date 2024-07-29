@@ -39,17 +39,26 @@ function color2() {
     window.setTimeout("color3()",3000)
 }
 function color3() {
-    document.bgColor="#ecf0d4"
+    document.bgColor="#edf2d2"
     window.setTimeout("color4()",3000)
 }
 function color4() {
-    document.bgColor="#f3f4ec"
+    document.bgColor="#f3f4dd"
     window.setTimeout("color5()",3000)
 }
 function color5() {
     document.bgColor="#ffffff"
     window.setTimeout("color1()",3000)
 }
+
+/* Toggle images for different court types page one: home */
+
+const courtImage = document.getElementById('hcourtimg');
+const courtImages = ['twocourts.jpg', 'hard2.jpeg'];
+setInterval(function(){
+    let random = Math.floor(Math.random() * 2);
+    courtImage.src = courtImages[random];
+}, 3000)
 
 /* Book Time form validation */
 
