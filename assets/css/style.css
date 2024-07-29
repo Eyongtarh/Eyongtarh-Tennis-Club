@@ -447,9 +447,14 @@ form div input {
     list-style-type: none;
 }
 
-#social-networks i {
-    font-size: 160%;
+#social-networks li a {
+    font-size: 180%;
     padding: 10px;
+    color: #3535de;
+}
+
+#social-networks li a:hover {
+    color: #bd2020;
 }
 
 /* Style to remove toggle tags from screen size greater than 768px */

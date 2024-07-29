@@ -1,6 +1,6 @@
 /* To toggle pages on the Menu bar open and close */
 
-let navLink = document.getElementById("nav-bar");
+const navLink = document.getElementById("nav-bar");
 
 function showMenu() {
     navLink.style.right = "0";
@@ -13,14 +13,14 @@ function hideMenu() {
 /* To toggle pages in section one service.html */
 
 function showPage(coach) {
-    let nodeList = document.querySelectorAll(".trainer");
+    const nodeList = document.querySelectorAll(".trainer");
     for (let i = 0; i < nodeList.length; i++) {
         nodeList[i].style.display = "none";
     }
     document.querySelector(`#${coach}`).style.display = "block";
 }
 document.addEventListener('DOMContentLoaded', function () {
-    let nodeList = document.querySelectorAll('button');
+    const nodeList = document.querySelectorAll('button');
     for (let i = 0; i < nodeList.length; i++) {
         nodeList[i].onclick = function () {
             showPage(this.dataset.coach);
