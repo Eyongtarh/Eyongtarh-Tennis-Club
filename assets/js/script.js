@@ -20,13 +20,36 @@ function showPage(coach) {
     document.querySelector(`#${coach}`).style.display = "block";
 }
 document.addEventListener('DOMContentLoaded', function () {
-    const nodeList = document.querySelectorAll('button');
+    const nodeList = document.querySelectorAll("button");
     for (let i = 0; i < nodeList.length; i++) {
         nodeList[i].onclick = function () {
             showPage(this.dataset.coach);
         }
     }
 });
+
+/* To toggle background colors in main section one */
+
+function color1() {
+    document.bgColor="#e4ecbc"
+    window.setTimeout("color2()",3000)
+}
+function color2() {
+    document.bgColor="#ebf4ec"
+    window.setTimeout("color3()",3000)
+}
+function color3() {
+    document.bgColor="#ecf0d4"
+    window.setTimeout("color4()",3000)
+}
+function color4() {
+    document.bgColor="#f3f4ec"
+    window.setTimeout("color5()",3000)
+}
+function color5() {
+    document.bgColor="#ffffff"
+    window.setTimeout("color1()",3000)
+}
 
 /* Book Time form validation */
 
