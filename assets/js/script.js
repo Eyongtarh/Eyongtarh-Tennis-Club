@@ -10,6 +10,7 @@ function hideMenu() {
     navLink.style.right = "-200px";
 };
 
+
 /* To toggle pages in section one service.html */
 
 function showPage(coach) {
@@ -28,37 +29,59 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
+
 /* To toggle background colors in main section one */
 
 function color1() {
-    document.bgColor="#e4ecbc"
-    window.setTimeout("color2()",3000)
-}
-function color2() {
-    document.bgColor="#ebf4ec"
-    window.setTimeout("color3()",3000)
-}
-function color3() {
-    document.bgColor="#edf2d2"
-    window.setTimeout("color4()",3000)
-}
-function color4() {
-    document.bgColor="#f3f4dd"
-    window.setTimeout("color5()",3000)
-}
-function color5() {
-    document.bgColor="#ffffff"
-    window.setTimeout("color1()",3000)
+    document.bgColor = "#e4ecbc"
+    window.setTimeout("color2()", 3000)
 }
 
-/* Toggle images for different court types page one: home */
+function color2() {
+    document.bgColor = "#eae4cc"
+    window.setTimeout("color3()", 3000)
+}
+
+function color3() {
+    document.bgColor = "#edf2d2"
+    window.setTimeout("color4()", 3000)
+}
+
+function color4() {
+    document.bgColor = "#f3e4dd"
+    window.setTimeout("color1()", 3000)
+}
+
+
+/* Toggle images for hard court page one: home */
 
 const courtImage = document.getElementById('hcourtimg');
-const courtImages = ['twocourts.jpg', 'hard2.jpeg'];
-setInterval(function(){
-    let random = Math.floor(Math.random() * 2);
-    courtImage.src = courtImages[random];
-}, 3000)
+const courtImages = ['assets/images/twocourts.jpg', 'assets/images/hard2.jpeg'];
+setInterval(function () {
+    let randomIndex = Math.floor(Math.random() * courtImages.length);
+    courtImage.src = courtImages[randomIndex];
+}, 3000);
+
+
+/* Toggle images for clay court page one: home */
+
+const ccourtImage = document.getElementById('ccourtimg');
+const ccourtImages = ['assets/images/claycourt.jpeg', 'assets/images/clay2.jpeg'];
+setInterval(function () {
+    let randomIndex = Math.floor(Math.random() * ccourtImages.length);
+    ccourtImage.src = ccourtImages[randomIndex];
+}, 3000);
+
+
+/* Toggle images for grass court page one: home */
+
+const gcourtImage = document.getElementById('gcourtimg');
+const gcourtImages = ['assets/images/grasscourt.jpeg', 'assets/images/grass2.jpeg'];
+setInterval(function () {
+    let randomIndex = Math.floor(Math.random() * gcourtImages.length);
+    gcourtImage.src = gcourtImages[randomIndex];
+}, 3000);
+
 
 /* Book Time form validation */
 

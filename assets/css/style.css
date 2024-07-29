@@ -345,7 +345,7 @@ form div input {
     margin-left: -2em;
     cursor: pointer;
     box-shadow: 0 0 20px 0px rgba(243, 94, 94, 0.3);
-    
+
 }
 
 #bookbut a:hover {
@@ -475,6 +475,7 @@ form div input {
     .c-types {
         flex-direction: column;
     }
+
     #booktime {
         padding: 10px 200px;
     }
@@ -552,6 +553,7 @@ form div input {
         border-radius: 10px;
         width: 290px;
     }
+
     #booktime {
         padding: 10px 20px;
     }
