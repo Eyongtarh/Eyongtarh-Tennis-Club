@@ -1,558 +1,523 @@
 /* Google font import */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
 /* Asterisk wild card selector */
-
 * {
-    padding: 0;
-    margin: 0;
-    font-family: "Poppins", sans-serif;
+	padding: 0;
+	margin: 0;
+	font-family: "Poppins", sans-serif;
 }
-
 
 /*General Rules*/
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
-
 /* Header */
-
 H1 {
-    font-family: "Roboto", sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 
 .header {
-    width: 100%;
-    height: 20em;
-    background-image: linear-gradient(rgba(61, 73, 107, 0.8), rgba(61, 73, 107, 0.7)), url(../images/twocourts.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    padding-top: 20px;
+	width: 100%;
+	height: 20em;
+	background-image: linear-gradient(rgba(61, 73, 107, 0.8), rgba(61, 73, 107, 0.7)), url(../images/twocourts.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding-top: 20px;
 }
 
 .header-s {
-    width: 100%;
-    height: 20em;
-    background-image: linear-gradient(rgba(61, 73, 107, 0.8), rgba(61, 73, 107, 1)), url(../images/grasscourt.jpeg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    padding-top: 20px;
+	width: 100%;
+	height: 20em;
+	background-image: linear-gradient(rgba(61, 73, 107, 0.8), rgba(61, 73, 107, 1)), url(../images/grasscourt.jpeg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding-top: 20px;
 }
 
 .header-b {
-    width: 100%;
-    height: 20em;
-    background-image: linear-gradient(rgba(61, 73, 107, 0.8), rgba(61, 73, 107, 0.9)), url(../images/claycourt.jpeg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    padding-top: 20px;
+	width: 100%;
+	height: 20em;
+	background-image: linear-gradient(rgba(61, 73, 107, 0.8), rgba(61, 73, 107, 0.9)), url(../images/claycourt.jpeg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding-top: 20px;
 }
 
 nav {
-    display: flex;
-    padding: 4px 4px;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	padding: 4px 4px;
+	justify-content: space-between;
+	align-items: center;
 }
 
 #nav-bar {
-    flex: 1;
-    text-align: right;
+	flex: 1;
+	text-align: right;
 }
 
 #nav-bar ul li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 6px 10px;
-    position: relative;
+	list-style-type: none;
+	display: inline-block;
+	padding: 6px 10px;
+	position: relative;
 }
 
 #nav-bar ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 15px;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 15px;
 }
 
 #nav-bar ul li::after {
-    content: " ";
-    width: 0%;
-    height: 2px;
-    display: block;
-    background: #bd2020;
-    margin: auto;
-    transition: 0.5s;
+	content: " ";
+	width: 0%;
+	height: 2px;
+	display: block;
+	background: #bd2020;
+	margin: auto;
+	transition: 0.5s;
 }
 
 #nav-bar ul li:hover::after {
-    width: 100%;
+	width: 100%;
 }
 
 #logo {
-    color: #ffffff;
-    margin-left: 20px;
-    font-size: 12px;
+	color: #ffffff;
+	margin-left: 20px;
+	font-size: 12px;
 }
 
 #welcome {
-    width: 70%;
-    color: #ffffff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+	width: 70%;
+	color: #ffffff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
 }
 
 #bookt {
-    width: 70%;
-    color: #ffffff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+	width: 70%;
+	color: #ffffff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
 }
 
 #welcome h1 {
-    font-size: 40px;
+	font-size: 40px;
 }
 
 #welcome p {
-    font-size: 15px;
-    margin: 12px 0 30px;
+	font-size: 15px;
+	margin: 12px 0 30px;
 }
 
 #readm {
-    display: inline-block;
-    text-decoration: none;
-    color: #ffffff;
-    border: 3px solid #ffffff;
-    padding: 15px 35px;
-    font-size: 12px;
-    background: #3535de;
-    position: relative;
-    cursor: pointer;
+	display: inline-block;
+	text-decoration: none;
+	color: #ffffff;
+	border: 3px solid #ffffff;
+	padding: 15px 35px;
+	font-size: 12px;
+	background: #3535de;
+	position: relative;
+	cursor: pointer;
 }
 
 #readm:hover {
-    border: 3px solid #bd2020;
-    transition: 0.5s;
+	border: 3px solid #bd2020;
+	transition: 0.5s;
 }
 
 /* Section one, index.html Body, Type of courts */
-
 .courts {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding: 50px;
-
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding: 50px;
 }
 
-
 p {
-    padding: 10px;
-
+	padding: 10px;
 }
 
 .c-types {
-    margin-top: 4%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.all-courts {
-    flex-basis: 31%;
-    background-color: #f0ebeb;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 12px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
+	margin-top: 4%;
+	display: flex;
+	justify-content: space-between;
 }
 
 h3 {
-    padding: 10px;
-    text-align: center;
-    color: #bd2020;
-}
-
-.all-courts:hover {
-    box-shadow: 0 0 20px 0px rgba(243, 94, 94, 0.3);
+	padding: 10px;
+	text-align: center;
+	color: #bd2020;
 }
 
 /* Section one, service.html Body, Areas of Operation */
-
 .services {
-    width: 60%;
-    margin: auto;
-    text-align: center;
-    padding: 10px;
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	padding: 10px;
 }
 
 .services h1 {
-    padding-top: 50px;
+	padding-top: 50px;
 }
 
 .operation {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
 }
 
 button {
-    margin: 30px 40px;
-    background-color: #3535de;
-    color: #ffffff;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    padding: 15px 50px;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-    box-shadow: 0 0 20px 0px rgba(243, 94, 94, 0.3);
+	margin: 30px 40px;
+	background-color: #3535de;
+	color: #ffffff;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	padding: 15px 50px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	box-shadow: 0 0 20px 0px rgba(243, 94, 94, 0.3);
 }
 
 button:hover {
-    background: #bd2020;
-    transition: 0.5s;
+	background: #bd2020;
+	transition: 0.5s;
 }
 
 #all-trainer {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .trainer {
-    margin-top: 50px;
-    background-color: #f0ebeb;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 12px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
+	margin-top: 50px;
+	background-color: #f0ebeb;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 12px 12px;
+	box-sizing: border-box;
+	transition: 0.5s;
 }
 
 .trainer:hover {
-    box-shadow: 0 0 20px 0px rgba(243, 94, 94, 0.3);
+	box-shadow: 0 0 20px 0px rgba(243, 94, 94, 0.3);
 }
 
 /* Dont display recreationa player and competitive player so as to add javascript code to rotate them on click */
-
 #coach2,
 #coach3 {
-    display: none;
+	display: none;
 }
 
 /* book.html Body, section one, Book time */
-
 .reach-us {
-    width: 88%;
-    margin: auto;
-    text-align: center;
-    padding: 50px;
+	width: 88%;
+	margin: auto;
+	text-align: center;
+	padding: 50px;
 }
 
 .reach-t {
-    flex-basis: 48%;
-    flex-direction: column;
-    background-color: #f0ebeb;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 12px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
+	flex-basis: 48%;
+	flex-direction: column;
+	background-color: #f0ebeb;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 12px 12px;
+	box-sizing: border-box;
+	transition: 0.5s;
 }
 
 form div input {
-    width: 80%;
-    border-radius: 8px;
-    height: 30px;
-    outline: none;
-    border: 2px solid #c4c4c4;
-    padding-left: 1rem;
+	width: 80%;
+	border-radius: 8px;
+	height: 30px;
+	outline: none;
+	border: 2px solid #c4c4c4;
+	padding-left: 1rem;
 }
 
 .error-message {
-    flex-direction: column;
-    color: #bd2020;
-    font-size: 0.9rem;
+	flex-direction: column;
+	color: #bd2020;
+	font-size: 0.9rem;
 }
 
 .error {
-    border: 1px solid #bd2020;
+	border: 1px solid #bd2020;
 }
 
 .reach-t:hover {
-    box-shadow: 0 0 20px 0px rgba(243, 94, 94, 0.3);
+	box-shadow: 0 0 20px 0px rgba(243, 94, 94, 0.3);
 }
 
 .reach-t iframe {
-    border-radius: 10px;
+	border-radius: 10px;
 }
 
 .reach-t i {
-    color: #3535de;
+	color: #3535de;
 }
 
 .reach-t video {
-    border-radius: 10px;
+	border-radius: 10px;
 }
 
 .reach-l {
-    flex-direction: column;
+	flex-direction: column;
 }
 
 #booktime {
-    margin: 0;
-    padding: 10px 150px;
-    text-align: left;
+	margin: 0;
+	padding: 10px 150px;
+	text-align: left;
 }
 
 #bookbut {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
 }
 
 #bookbut button {
-    padding: 7px 12px;
-    margin-left: -3em;
+	padding: 7px 12px;
+	margin-left: -3em;
 }
 
 #bookbut a {
-    padding: 5px 20px;
-    text-decoration: none;
-    background-color: #3535de;
-    color: #ffffff;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    border-radius: 10px;
-    border: none;
-    margin-left: -2em;
-    cursor: pointer;
-    box-shadow: 0 0 20px 0px rgba(243, 94, 94, 0.3);
-
+	padding: 5px 20px;
+	text-decoration: none;
+	background-color: #3535de;
+	color: #ffffff;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	border-radius: 10px;
+	border: none;
+	margin-left: -2em;
+	cursor: pointer;
+	box-shadow: 0 0 20px 0px rgba(243, 94, 94, 0.3);
 }
 
 #bookbut a:hover {
-    background: #bd2020;
-    transition: 0.5s;
+	background: #bd2020;
+	transition: 0.5s;
 }
 
 /* Section Two, Body, Court surfaces */
-
 .diff-courts {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding: 10px;
-
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding: 10px;
 }
 
 .diff-courts h3 {
-    color: #000000;
+	color: #000000;
 }
 
 .hardcourts {
-    flex-basis: 32%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
+	flex-basis: 32%;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	position: relative;
+	overflow: hidden;
 }
 
 .hardcourts img {
-    width: 100%;
-    display: block;
+	width: 100%;
+	display: block;
 }
 
 .hcover {
-    background: transparent;
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 0.5s;
+	background: transparent;
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 0.5s;
 }
 
 .hcover:hover {
-    background: rgba(93, 93, 169, 0.6);
+	background: rgba(93, 93, 169, 0.6);
 }
 
 .hcover h3 {
-    width: 100%;
-    color: #ffffff;
-    bottom: 0;
-    font-size: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-    opacity: 0;
-    transition: 0.5s;
+	width: 100%;
+	color: #ffffff;
+	bottom: 0;
+	font-size: 30px;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	opacity: 0;
+	transition: 0.5s;
 }
 
 .hcover:hover h3 {
-    bottom: 35%;
-    opacity: 1;
+	bottom: 35%;
+	opacity: 1;
 }
 
 /* Section Footer */
-
 .footer {
-    width: 100%;
-    text-align: center;
-    margin: auto;
-    padding: 0px 0px;
-    bottom: 0;
-    left: 0;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	padding: 0px 0px;
+	bottom: 0;
+	left: 0;
 }
 
 .footer h3 {
-    color: #000000;
+	color: #000000;
 }
 
 .all-contact {
-    flex-basis: 33%;
-    background-color: rgba(93, 93, 169, 0.7);
-    padding: 10px 4px;
+	flex-basis: 33%;
+	background-color: rgba(93, 93, 169, 0.7);
+	padding: 10px 4px;
 }
 
 .all-contact h3 {
-    color: #bd2020;
+	color: #bd2020;
 }
 
 .all-contact h5 {
-    padding-top: 15px;
+	padding-top: 15px;
 }
 
 #social-networks {
-    padding-top: 15px;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+	padding-top: 15px;
+	display: flex;
+	justify-content: space-evenly;
+	list-style-type: none;
 }
 
 #social-networks li a {
-    font-size: 200%;
-    padding: 1px;
-    color: #3535de;
+	font-size: 200%;
+	padding: 1px;
+	color: #3535de;
 }
 
 #social-networks li a:hover {
-    color: #bd2020;
+	color: #bd2020;
 }
 
 /* Style to remove toggle tags from screen size greater than 768px */
-
 #tog {
-    display: none;
+	display: none;
 }
 
 #togg {
-    display: none;
+	display: none;
 }
 
-
 /* media query: (1280px and down) */
-
 @media(max-width: 1280px) {
-    .c-types {
-        flex-direction: column;
-    }
+	.c-types {
+		flex-direction: column;
+	}
 
-    #booktime {
-        padding: 10px 200px;
-    }
+	#booktime {
+		padding: 10px 200px;
+	}
 }
 
 /* media query: phone (768px and down */
-
 @media(max-width: 768px) {
-    #welcome h1 {
-        font-size: 20px;
-    }
+	#welcome h1 {
+		font-size: 20px;
+	}
 
-    #nav-bar ul li {
-        display: block;
-    }
+	#nav-bar ul li {
+		display: block;
+	}
 
-    #nav-bar {
-        position: absolute;
-        background: #bd2020;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-        transition: 1s;
-    }
+	#nav-bar {
+		position: absolute;
+		background: #bd2020;
+		height: 100vh;
+		width: 200px;
+		top: 0;
+		right: -200px;
+		text-align: left;
+		z-index: 2;
+		transition: 1s;
+	}
 
-    nav i {
-        display: block;
-        color: #ffffff;
-        margin: 10px;
-        font-size: 26px;
-        cursor: pointer;
-    }
+	nav i {
+		display: block;
+		color: #ffffff;
+		margin: 10px;
+		font-size: 26px;
+		cursor: pointer;
+	}
 
-    #nav-bar ul {
-        padding: 30px;
-    }
+	#nav-bar ul {
+		padding: 30px;
+	}
 
-    #tog {
-        display: block;
-    }
+	#tog {
+		display: block;
+	}
 
-    #togg {
-        display: block;
-    }
+	#togg {
+		display: block;
+	}
 
-    .c-types {
-        flex-direction: column;
-    }
+	.c-types {
+		flex-direction: column;
+	}
 
-    .courts {
-        padding-left: 37px;
-    }
+	.courts {
+		padding-left: 37px;
+	}
 
-    .footer {
-        padding-left: 0;
-    }
+	.footer {
+		padding-left: 0;
+	}
 
-    .operation {
-        flex-direction: column;
-    }
+	.operation {
+		flex-direction: column;
+	}
 
-    .reach-us {
-        padding-left: 20px;
-    }
+	.reach-us {
+		padding-left: 20px;
+	}
 
-    .reach-t iframe {
-        border-radius: 10px;
-        width: 280px;
-    }
+	.reach-t iframe {
+		border-radius: 10px;
+		width: 280px;
+	}
 
-    .reach-t video {
-        border-radius: 10px;
-        width: 290px;
-    }
+	.reach-t video {
+		border-radius: 10px;
+		width: 290px;
+	}
 
-    #booktime {
-        padding: 10px 20px;
-    }
+	#booktime {
+		padding: 10px 20px;
+	}
 }
