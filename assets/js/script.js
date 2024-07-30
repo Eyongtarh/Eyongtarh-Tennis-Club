@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-/* To toggle background colors in main section one */
+/* To toggle background colors: body */
 
 function color1() {
     document.bgColor = "#e4ecbc"

@@ -115,12 +115,21 @@ nav {
     text-align: center;
 }
 
+#bookt h1 {
+    font-size: 40px;
+}
+
+#bookt p {
+    font-size: 20px;
+    margin: 12px 0 30px;
+}
+
 #welcome h1 {
     font-size: 40px;
 }
 
 #welcome p {
-    font-size: 15px;
+    font-size: 20px;
     margin: 12px 0 30px;
 }
 
