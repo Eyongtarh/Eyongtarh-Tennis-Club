@@ -48,39 +48,19 @@ function color3() {
 }
 
 function color4() {
-    document.bgColor = "#f3e4dd"
+    document.bgColor = "#c8cfd8"
     window.setTimeout("color1()", 3000)
 }
 
 
 /* Toggle images for hard court page one: home */
 
-const courtImage = document.getElementById('hcourtimg');
-const courtImages = ['assets/images/twocourts.jpg', 'assets/images/hard2.jpeg'];
+const readMore = document.getElementById("readm");
+const readmColor = ["blue", "green"];
 setInterval(function () {
-    let randomIndex = Math.floor(Math.random() * courtImages.length);
-    courtImage.src = courtImages[randomIndex];
-}, 3000);
-
-
-/* Toggle images for clay court page one: home */
-
-const ccourtImage = document.getElementById('ccourtimg');
-const ccourtImages = ['assets/images/claycourt.jpeg', 'assets/images/clay2.jpeg'];
-setInterval(function () {
-    let randomIndex = Math.floor(Math.random() * ccourtImages.length);
-    ccourtImage.src = ccourtImages[randomIndex];
-}, 3000);
-
-
-/* Toggle images for grass court page one: home */
-
-const gcourtImage = document.getElementById('gcourtimg');
-const gcourtImages = ['assets/images/grasscourt.jpeg', 'assets/images/grass2.jpeg'];
-setInterval(function () {
-    let randomIndex = Math.floor(Math.random() * gcourtImages.length);
-    gcourtImage.src = gcourtImages[randomIndex];
-}, 3000);
+    let randomIndex = Math.floor(Math.random() * readmColor.length);
+    readMore.style.background = readmColor[randomIndex];
+}, 1000);
 
 
 /* Book Time form validation */
@@ -100,8 +80,6 @@ form.addEventListener("submit", (event) => {
     const pass2Error = document.getElementById("pass2-error");
     const emailError = document.getElementById("email-error");
     const serviceError = document.getElementById("service-error");
-
-    console.log("all gotten")
 
     nameErrorf.textContent = "";
     nameErrorl.textContent = "";
@@ -157,7 +135,7 @@ form.addEventListener("submit", (event) => {
         event.preventDefault();
     }
 
-    if (serviceInput.value.trim() === "") {
+    if (serviceInput.option.trim() === "") {
         serviceError.textContent = "Please choose a service.";
         serviceInput.classList.add("error");
         event.preventDefault();

@@ -63,9 +63,9 @@
                 <div>
                     <h3>Exercise Drill</h3>
                     <video width="600" height="200" controls autoplay muted loop>
-                        <source src="exerc.mp4" type="video/mp4">
-                        <source src="exerc.ogg" type="video/ogg">
-                        <source src="exerc.webm" type="video/webm">
+                        <source src="assets/videos/exerc.mp4" type="video/mp4">
+                        <source src="assets/videos/exerc.ogg" type="video/ogg">
+                        <source src="assets/videos/exerc.webm" type="video/webm">
                         Your browser does not support the video tag.
                     </video>
                 </div>
@@ -76,33 +76,39 @@
                     enctype="multipart/form-data">
                     <div>
                         <label for="first_name">First Name:</label>
-                        <input id="first_name" type="text" name="first_name" class="text-input" placeholder="Please enter your first name">
+                        <input id="first_name" type="text" name="first_name" class="text-input"
+                            placeholder="Please enter your first name">
                         <div class="error-message" id="namef-error"></div>
                     </div>
                     <div>
                         <label for="last_name">Last Name:</label>
-                        <input id="last_name" type="text" name="last_name" class="text-input" placeholder="Please enter your last name">
+                        <input id="last_name" type="text" name="last_name" class="text-input"
+                            placeholder="Please enter your last name">
                         <div class="error-message" id="namel-error"></div>
                     </div>
                     <div>
                         <label for="userpass1">Password:</label>
-                        <input id="userpass1" type="password" name="userpass1" class="text-input" placeholder="Please enter your password">
+                        <input id="userpass1" type="password" name="userpass1" class="text-input"
+                            placeholder="Please enter your password">
                         <div class="error-message" id="pass1-error"></div>
                     </div>
                     <div>
 
                         <label for="userpass2">Re Enter Password:</label>
-                        <input id="userpass2" type="password" name="userpass2" class="text-input" placeholder="Please re-enter your password">
+                        <input id="userpass2" type="password" name="userpass2" class="text-input"
+                            placeholder="Please re-enter your password">
                         <div class="error-message" id="pass2-error"></div>
                     </div>
                     <div>
                         <label for="email_address">Email Address:</label>
-                        <input id="email_address" type="email" name="email_address" class="text-input" placeholder="Please enter your email">
+                        <input id="email_address" type="email" name="email_address" class="text-input"
+                            placeholder="Please enter your email">
                         <div class="error-message" id="email-error"></div>
                     </div>
                     <div>
                         <label for="service-type">Type of Service:</label>
-                        <input id="service-type" list="services" name="service-type" placeholder="Please choose a service">
+                        <input id="service-type" list="services" name="service-type"
+                            placeholder="Please choose a service">
                         <datalist id="services">
                             <option value="Children Trainer">
                             <option value="Adult Trainer">
@@ -111,8 +117,8 @@
                     </div>
                     <br>
                     <div id="bookbut">
-                    <button type="submit">Book Time</button>
-                    <a href="book.html">Reset</a>
+                        <button type="submit">Book Time</button>
+                        <a href="book.html">Reset</a>
                     </div>
                 </form>
             </div>
