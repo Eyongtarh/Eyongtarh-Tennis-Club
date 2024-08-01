@@ -22,105 +22,110 @@
 
 <body onload="color1()">
     <!-- Header -->
-    <section class="header-s">
+    <header class="header-s">
         <nav>
-            <a href="index.html">
-                <h2 id="logo">
-                    &nbsp;&nbsp;Eyongtarh<br>Tennis Club
-                </h2>
+            <a href="index.html" aria-label="logo">
+                <p id="logo">
+                    <strong>&nbsp;&nbsp;Eyongtarh<br>Tennis Club</strong>
+                </p>
             </a>
             <div id="nav-bar">
                 <i class="fa-solid fa-rectangle-xmark" id="tog" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="service.html" class="active">Services</a></li>
-                    <li><a href="book.html">Book Time</a></li>
+                    <li><a href="index.html" aria-label="Home page">Home</a></li>
+                    <li><a href="service.html" aria-label="Service page" class="active">Services</a></li>
+                    <li><a href="book.html" aria-label="Book Time page">Book Time</a></li>
                 </ul>
             </div>
             <i class="fa-solid fa-bars" id="togg" onclick="showMenu()"></i>
         </nav>
-        <div id="bookt">
+        <div id="welcome">
             <h1>Best Tennis Club In Town</h1>
             <p>You Are Welcome To Enjoy Our Resort And Services</p>
             <h2>
-                <a href="book.html" id="readm">
+                <a href="book.html" id="readm" aria-label="Link to Book Time page">
                     Book Time
                 </a>
             </h2>
         </div>
-    </section>
+    </header>
+
     <!-- Main -->
-    <section class="services">
-        <h1>Areas Of Operation</h1>
-        <div class="operation">
-            <button data-coach="coach1">Children<br>Trainee</button>
-            <button data-coach="coach2">Recreational<br>Player</button>
-            <button data-coach="coach3">Competitive<br>Player</button>
-        </div>
-        <div id="all-trainer">
-            <div id="coach1" class="trainer">
-                <h3>Children Trainee</h3>
-                <p> We have adopted a pedagogy that the International Tennis
-                    Federation has developed. That is, balls, rackets and playing
-                    fields are adapted to the level and age of the players. The Play & Stay concept
-                    means that we use different balls that bounce differently, fast and high depending
-                    on the height and level of development of the players.<br><br>
-                    The result has been that our players relatively and quickly develop a better physique and footwork,
-                    better and more functionalstrokes and better tactics where it is possible to play "real tennis
-                    duels" at a relatively early age. This in turn creates joy for the game and that is exactly what
-                    is our most important goal. This is our approach. Book time with us to get you started.<br><br>
-                </p>
+    <main>
+        <section class="services">
+            <h2>Areas Of Operation</h2>
+            <div class="operation">
+                <button data-coach="coach1" aria-label="Children Trainees">Children<br>Trainees</button>
+                <button data-coach="coach2" aria-label="Recreational Player">Recreational<br>Player</button>
+                <button data-coach="coach3" aria-label="Competitive Player">Competitive<br>Player</button>
             </div>
-            <div id="coach2" class="trainer">
-                <h3>Recreational Player</h3>
-                <p> We provide adequate guidance to students as well as energetic pensioners who can be accommodated
-                    today within the framework of our program for recreational and exercise purposes. Our goal
-                    is to always offer tennis training in many different forms and something for non competitive
-                    players. <br><br>
-                    We offer courses for beginners to more advanced players. This is in the form of weekly
-                    courses, private lessons in groups or individually and exercise series. Book time so you can begin
-                    your journey.<br><br>
-                </p>
-            </div>
-            <div id="coach3" class="trainer">
-                <h3>Competitive Player</h3>
-                <p> Our competition activities includes our representative teams, the competitive
-                    juniors as well as our competitive seniors and veterans.
-                    Our goal is to give children and young people who have an interest in tennis and especially
-                    the competitive aspect a solid and well thought out sports education of the highest quality.
-                    <br><br>
-                    We want to offer the best development environment and create the conditions for players
-                    who want to make a tennis investment with the goal of reaching regional,
-                    national or international top levels.<br><br>
-                </p>
-            </div>
-        </div>
-    </section>
-    <section class="diff-courts">
-        <h3>Operation Participants</h3>
-        <div class="c-types">
-            <div class="hardcourts">
-                <img src="assets/images/childtrainee.png" alt="Children Trainee" width="500" height="300">
-                <div class="hcover">
-                    <h3>Children<br>Trainee</h3>
+            <div id="all-trainer">
+                <div id="coach1" class="trainer">
+                    <h3>Children Trainee</h3>
+                    <p> We have adopted a pedagogy that the International Tennis
+                        Federation has developed. That is, balls, rackets and playing
+                        fields are adapted to the level and age of the players. The Play & Stay concept
+                        means that we use different balls that bounce differently, fast and high depending
+                        on the height and level of development of the players.<br><br>
+                        The result has been that our players relatively and quickly develop a better physique and
+                        footwork,
+                        better and more functionalstrokes and better tactics where it is possible to play "real tennis
+                        duels" at a relatively early age. This in turn creates joy for the game and that is exactly what
+                        is our most important goal. This is our approach. Book time with us to get you started.<br><br>
+                    </p>
+                </div>
+                <div id="coach2" class="trainer">
+                    <h3>Recreational Player</h3>
+                    <p> We provide adequate guidance to students as well as energetic pensioners who can be accommodated
+                        today within the framework of our program for recreational and exercise purposes. Our goal
+                        is to always offer tennis training in many different forms and something for non competitive
+                        players. <br><br>
+                        We offer courses for beginners to more advanced players. This is in the form of weekly
+                        courses, private lessons in groups or individually and exercise series. Book time so you can
+                        begin
+                        your journey.<br><br>
+                    </p>
+                </div>
+                <div id="coach3" class="trainer">
+                    <h3>Competitive Player</h3>
+                    <p> Our competition activities includes our representative teams, the competitive
+                        juniors as well as our competitive seniors and veterans.
+                        Our goal is to give children and young people who have an interest in tennis and especially
+                        the competitive aspect a solid and well thought out sports education of the highest quality.
+                        <br><br>
+                        We want to offer the best development environment and create the conditions for players
+                        who want to make a tennis investment with the goal of reaching regional,
+                        national or international top levels.<br><br>
+                    </p>
                 </div>
             </div>
-            <div class="hardcourts">
-                <img src="assets/images/recreatrainee.png" alt="Recreational Player" width="500" height="300">
-                <div class="hcover">
-                    <h3>Recreational<br>Player</h3>
+        </section>
+        <section class="diff-courts">
+            <h3>Operation Participants</h3>
+            <div class="c-types">
+                <div class="hardcourts">
+                    <img src="assets/images/childtrainee.png" alt="Children Trainee" width="500" height="300">
+                    <div class="hcover">
+                        <h3>Children<br>Trainee</h3>
+                    </div>
+                </div>
+                <div class="hardcourts">
+                    <img src="assets/images/recreatrainee.png" alt="Recreational Player" width="500" height="300">
+                    <div class="hcover">
+                        <h3>Recreational<br>Player</h3>
+                    </div>
+                </div>
+                <div class="hardcourts">
+                    <img src="assets/images/protainee.png" alt="Competitive Player" width="500" height="300">
+                    <div class="hcover">
+                        <h3>Competitive<br>Player</h3>
+                    </div>
                 </div>
             </div>
-            <div class="hardcourts">
-                <img src="assets/images/protainee.png" alt="Competitive Player" width="500" height="300">
-                <div class="hcover">
-                    <h3>Competitive<br>Player</h3>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
     <!-- Footer -->
-    <section class="footer">
+    <footer class="footer">
         <div class="c-types">
             <div class="all-contact">
                 <h3>Social Media</h3>
@@ -157,7 +162,7 @@
                 <p>Monday-Friday: 06:00-22:00<br>Saturday: 05:00-23:00<br>Sunday:08:00-21:00<br>Holidays:08:00-21:00</p>
             </div>
         </div>
-    </section>
+    </footer>
     <!-- Javascript link -->
     <script src="assets/js/script.js"></script>
     <!-- Fontawesome kit -->

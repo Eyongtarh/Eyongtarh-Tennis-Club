@@ -22,19 +22,19 @@
 
 <body onload="color1()">
     <!-- Header -->
-    <section class="header">
+    <header class="header">
         <nav>
-            <a href="index.html">
-                <h2 id="logo">
-                    &nbsp;&nbsp;Eyongtarh<br>Tennis Club
-                </h2>
+            <a href="index.html" aria-label="logo">
+                <p id="logo">
+                    <strong>&nbsp;&nbsp;Eyongtarh<br>Tennis Club</strong>
+                </p>
             </a>
             <div id="nav-bar">
                 <i class="fa-solid fa-rectangle-xmark" id="tog" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="service.html">Services</a></li>
-                    <li><a href="book.html">Book Time</a></li>
+                    <li><a href="index.html" aria-label="Home page" class="active">Home</a></li>
+                    <li><a href="service.html" aria-label="Service page">Services</a></li>
+                    <li><a href="book.html" aria-label="Book Time page">Book Time</a></li>
                 </ul>
             </div>
             <i class="fa-solid fa-bars" id="togg" onclick="showMenu()"></i>
@@ -43,86 +43,90 @@
             <h1>Best Tennis Club In Town</h1>
             <p>You Are Welcome To Enjoy Our Resort And Services</p>
             <h2>
-                <a href="service.html" id="readm">
+                <a href="service.html" id="readm" aria-label="Link to Service page">
                     Read More
                 </a>
             </h2>
         </div>
-    </section>
+    </header>
     <!-- Main -->
-    <section class="services">
-        <h1>Types Of Lawn Tennis Courts</h1>
-        <div class="operation">
-            <button data-coach="coach1">Grass<br>Court</button>
-            <button data-coach="coach2">Clay<br>Court</button>
-            <button data-coach="coach3">Hard<br>Court</button>
-        </div>
-        <div id="all-trainer">
-            <div id="coach1" class="trainer">
-                <h3>Grass Court</h3>
-                <p>
-                    Our grass court is in a warm climate region. Generally, it is advicable
-                    for grass tennis courts with such climatic conditions to use
-                    bermudagrass. This is the main reason our grass court is bermudagrass
-                    as it is drought tolerant. Out door only.<br><br>
-                    Grass courts are more traditional than other types of tennis courts and they are far
-                    less commonly used today in relation to hard courts and clay courts. There are many disadvantages
-                    with grass courts.For example, they are much more expensive to maintain compared to other surfaces.
-                    As such, we charge more to play on grass than clay or hard courts.<br><br>
-                </p>
+    <main>
+        <section class="services">
+            <h2>Types Of Lawn Tennis Courts</h2>
+            <div class="operation">
+                <button data-coach="coach1" aria-label="Grass Court">Grass<br>Court</button>
+                <button data-coach="coach2" aria-label="Clay Court">Clay<br>Court</button>
+                <button data-coach="coach3" aria-label="Hard court">Hard<br>Court</button>
             </div>
-            <div id="coach2" class="trainer">
-                <h3>Clay Court</h3>
-                <p>
-                    Our clay court is made of TOP CLAY® technology.It is designed to withstand
-                    intensive outdoor use, all year round. The unique technology of TOP CLAY® creates
-                    an uniform, homogeneous and attractive hybrid clay tennis court. This helps to
-                    prevents holes and cracks in the surface. Out door only.<br><br>
-                    Clay courts are slightly less expensive to construct than other types of tennis courts,
-                    but the maintenance costs of clay are high. The surface must be watered and rolled
-                    regularly to preserve texture and flatness, and brushed carefully before each game. This
-                    makes clay the second most charged court in our club.<br><br>
-                </p>
-            </div>
-            <div id="coach3" class="trainer">
-                <h3>Hard Court</h3>
-                <p>
-                    Our hard court is made of asphalt material and covered with acrylic resins to
-                    seal the surface and for marking the playing lines. This also provides some cushion on
-                    the surface. We have one indoor and one out door for the hard court.<br><br>
-                    Hard court is the least in court maintainance cost compared to grass and clay courts. Our hard
-                    coursts are maintaine by brushing, pressure washing with a cleaning solution and applying
-                    chemical treatments to prevent the growth of moss and algae. We charge the least on hard courts
-                    compared to grass or clay courts.<br><br>
-                </p>
-            </div>
-        </div>
-    </section>
-    <section class="diff-courts">
-        <h3>Court Surfaces</h3>
-        <div class="c-types">
-            <div class="hardcourts">
-                <img src="assets/images/hardcourt.png" alt="Hard court" width="500" height="300">
-                <div class="hcover">
-                    <h3>Hard<br>Court</h3>
+            <div id="all-trainer">
+                <div id="coach1" class="trainer">
+                    <h3>Grass Court</h3>
+                    <p>
+                        Our grass court is in a warm climate region. Generally, it is advicable
+                        for grass tennis courts with such climatic conditions to use
+                        bermudagrass. This is the main reason our grass court is bermudagrass
+                        as it is drought tolerant. Out door only.<br><br>
+                        Grass courts are more traditional than other types of tennis courts and they are far
+                        less commonly used today in relation to hard courts and clay courts. There are many
+                        disadvantages
+                        with grass courts.For example, they are much more expensive to maintain compared to other
+                        surfaces.
+                        As such, we charge more to play on grass than clay or hard courts.<br><br>
+                    </p>
+                </div>
+                <div id="coach2" class="trainer">
+                    <h3>Clay Court</h3>
+                    <p>
+                        Our clay court is made of TOP CLAY® technology.It is designed to withstand
+                        intensive outdoor use, all year round. The unique technology of TOP CLAY® creates
+                        an uniform, homogeneous and attractive hybrid clay tennis court. This helps to
+                        prevents holes and cracks in the surface. Out door only.<br><br>
+                        Clay courts are slightly less expensive to construct than other types of tennis courts,
+                        but the maintenance costs of clay are high. The surface must be watered and rolled
+                        regularly to preserve texture and flatness, and brushed carefully before each game. This
+                        makes clay the second most charged court in our club.<br><br>
+                    </p>
+                </div>
+                <div id="coach3" class="trainer">
+                    <h3>Hard Court</h3>
+                    <p>
+                        Our hard court is made of asphalt material and covered with acrylic resins to
+                        seal the surface and for marking the playing lines. This also provides some cushion on
+                        the surface. We have one indoor and one out door for the hard court.<br><br>
+                        Hard court is the least in court maintainance cost compared to grass and clay courts. Our hard
+                        coursts are maintaine by brushing, pressure washing with a cleaning solution and applying
+                        chemical treatments to prevent the growth of moss and algae. We charge the least on hard courts
+                        compared to grass or clay courts.<br><br>
+                    </p>
                 </div>
             </div>
-            <div class="hardcourts">
-                <img src="assets/images/claycourt.png" alt="Clay court" width="500" height="300">
-                <div class="hcover">
-                    <h3>Clay<br>Court</h3>
+        </section>
+        <section class="diff-courts">
+            <h3>Court Surfaces</h3>
+            <div class="c-types">
+                <div class="hardcourts">
+                    <img src="assets/images/hardcourt.png" alt="Hard court" width="500" height="300">
+                    <div class="hcover">
+                        <h3>Hard<br>Court</h3>
+                    </div>
+                </div>
+                <div class="hardcourts">
+                    <img src="assets/images/claycourt.png" alt="Clay court" width="500" height="300">
+                    <div class="hcover">
+                        <h3>Clay<br>Court</h3>
+                    </div>
+                </div>
+                <div class="hardcourts">
+                    <img src="assets/images/grass.png" alt="Grass court" width="500" height="300">
+                    <div class="hcover">
+                        <h3>Grass<br>Court</h3>
+                    </div>
                 </div>
             </div>
-            <div class="hardcourts">
-                <img src="assets/images/grass.png" alt="Grass court" width="500" height="300">
-                <div class="hcover">
-                    <h3>Grass<br>Court</h3>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
     <!-- Footer -->
-    <section class="footer">
+    <footer class="footer">
         <div class="c-types">
             <div class="all-contact">
                 <h3>Social Media</h3>
@@ -159,7 +163,7 @@
                 <p>Monday-Friday: 06:00-22:00<br>Saturday: 05:00-23:00<br>Sunday:08:00-21:00<br>Holidays:08:00-21:00</p>
             </div>
         </div>
-    </section>
+    </footer>
     <!-- Javascript link -->
     <script src="assets/js/script.js"></script>
     <!-- Fontawesome kit -->
