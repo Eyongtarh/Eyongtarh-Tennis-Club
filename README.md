@@ -42,20 +42,34 @@ The links included in the page works perfectly.The book time form also shows a p
 
 ### Lighthouse
 
-The accessibility rating in lighthouse is OK. The lighthouse test for the three pages: home, services and book-time is shown below respectively:
+The accessibility rating in lighthouse is OK. The lighthouse test for the home page is shown below :
 
 <a>
-<img src="assets/images/hom.jpeg" alt="" width="250" height="200" border="2">
-<img src="assets/images/hom.jpeg" alt="" width="250" height="200" border="2">
-<img src="assets/images/hom.jpeg" alt="" width="250" height="200" border="2">
+<img src="assets/images/page1.jpeg" alt="" width="400" height="300" border="2">
 </a>
+
+
+
+The accessibility rating in lighthouse is OK. The lighthouse test for the service page is shown below :
+<a>
+<img src="assets/images/page2.jpeg" alt="" width="400" height="300" border="2">
+</a>
+
+
+
+
+The accessibility rating in lighthouse is OK. The lighthouse test for the home page is shown below :
+<a>
+<img src="assets/images/page3.jpeg" alt="" width="400" height="300" border="2">
+</a>
+
 
 ### Media Queries 
 
 The site works on different screen sizes and therefore, it is fully responsive. The ui.dev/amiresponsive was used to test for site responsiveness. A photo and a link is presented below:
 
 <a>
-<img src="assets/images/resp.jpeg" alt="" width="400" height="300" border="2">
+<img src="assets/images/respons.jpeg" alt="" width="400" height="300" border="2">
 </a>
 
 Check out <a href="https://ui.dev/amiresponsive?url=https://eyongtarh.github.io/Eyongtarh-Tennis-Club/" target="_blank">Site Responsiveness</a> by ui.dev/amiresponsive.
