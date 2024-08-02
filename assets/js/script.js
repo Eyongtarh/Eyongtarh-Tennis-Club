@@ -23,6 +23,8 @@ function showPage(coach) {
 /*select the list to display on button click*/
 document.addEventListener('DOMContentLoaded', function () {
     const nodeList = document.querySelectorAll("button");
+    /*Here's an example of a for loop that prints every third number from 0 up 
+    to and including 99 using console.log in JavaScript:*/
     for (let i = 0; i < nodeList.length; i++) {
         nodeList[i].onclick = function () {
             showPage(this.dataset.coach);
@@ -100,8 +102,9 @@ form.addEventListener("submit", (event) => {
         nameInputf.classList.add("error");
         event.preventDefault();
     }
-
+/* // Base case,, Remove leading and trailing spaces*/
     if (nameInputl.value.trim() === "") {
+        /*Recursive case.  ,, Remove all spaces */
         nameErrorl.textContent = "Please enter your last name.";
         nameInputl.classList.add("error");
         event.preventDefault();
