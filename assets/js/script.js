@@ -1,4 +1,4 @@
-/* Decleration of variable To toggle the Menu bar open and close */
+/* Decleration of variable To toggle menu bar*/
 const navBar = document.getElementById("nav-bar");
 /* Decleration of variable To toggle pages in main section one pasge index.html/service.html */
 const nodeList = document.querySelectorAll(".trainer");
