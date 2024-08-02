@@ -101,39 +101,39 @@ form.addEventListener("submit", (event) => {
     passWord2.classList.remove("error");
     emailInput.classList.remove("error");
     serviceInput.classList.remove("error");
-/* if first name value is empty, withh all spaces removed, error message will display and form validation is prevented */
+    /* if first name value is empty, withh all spaces removed, error message will display and form validation is prevented */
     if (nameInputf.value.trim() === "") {
         nameErrorf.textContent = "Please enter your first name.";
         nameInputf.classList.add("error");
         event.preventDefault();
     }
-/* if last name value is empty, withh all spaces removed, error message will display and form validation is prevented */
+    /* if last name value is empty, withh all spaces removed, error message will display and form validation is prevented */
     if (nameInputl.value.trim() === "") {
         nameErrorl.textContent = "Please enter your last name.";
         nameInputl.classList.add("error");
         event.preventDefault();
     }
-/* if password1 value is empty, withh all spaces removed, error message will display and form validation is prevented */
+    /* if password1 value is empty, withh all spaces removed, error message will display and form validation is prevented */
     if (passWord1.value.trim() === "") {
         pass1Error.textContent = "Please enter your password.";
         passWord1.classList.add("error");
         event.preventDefault();
     }
-/* if password2 value is empty, withh all spaces removed, error message will display and form validation is prevented */
+    /* if password2 value is empty, withh all spaces removed, error message will display and form validation is prevented */
     if (passWord2.value.trim() === "") {
         pass2Error.textContent = "Please re-enter your password.";
         passWord2.classList.add("error");
         event.preventDefault();
     }
-/* if password1 is not equal to pasword2 value is empty, withh all spaces removed, error message 
-will display and form validation is prevented */
+    /* if password1 is not equal to pasword2 value is empty, withh all spaces removed, error message 
+    will display and form validation is prevented */
     if (passWord1.value.trim() !== passWord2.value.trim()) {
         pass2Error.textContent = "Please passwords doesn't match.";
         passWord2.classList.add("error");
         event.preventDefault();
     }
-/* if email value is empty, withh all spaces removed, error message will display and form validation is prevented 
-and if its filled with wrong formate, error message will display and form validation is prevented*/
+    /* if email value is empty, withh all spaces removed, error message will display and form validation is prevented 
+    and if its filled with wrong formate, error message will display and form validation is prevented*/
     const emailValue = emailInput.value.trim();
     if (emailValue === "") {
         emailError.textContent = "Please enter your email address.";
@@ -144,7 +144,7 @@ and if its filled with wrong formate, error message will display and form valida
         emailInput.classList.add("error");
         event.preventDefault();
     }
-/* if service value is empty, withh all spaces removed, error message will display and form validation is prevented */
+    /* if service value is empty, withh all spaces removed, error message will display and form validation is prevented */
     if (serviceInput.value.trim() === "") {
         serviceError.textContent = "Please choose a service.";
         serviceInput.classList.add("error");
