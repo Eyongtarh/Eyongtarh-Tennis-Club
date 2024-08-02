@@ -9,23 +9,60 @@ Eyongtarh Tennis Club is a club designed to help train children and adult lawn t
 
 ### Header
 
-The header includes the name : Eyongtarh Tennis Club as logo. This logo has a link to the home page. The header also includes a navigation bar. The navigation bar accommodates the links to the three pages: Home, Services, and book time. The second part of the header incledes a welcome message for visitors or members to enjoy the club's resort and services.The last part is an anchor: "Read More" and this in linked to the service page, and in the service page, its linked to the book time page, and in the book time page, its linked to the service page. 
+The header includes the name : Eyongtarh Tennis Club as logo. This logo has a link to the home page. The header also includes a navigation bar. The navigation bar accommodates the links to the three pages: Home, Services, and book time. The second part of the header incledes a welcome message for visitors or members to enjoy the club's resort and services.The last part is an anchor: "Read More" and this in linked to the service page, and in the service page, its linked to the book time page, and in the book time page, its linked to the service page. The Home page header can be seen below:
+
+
+<a>
+<img src="assets/images/hpg.jpeg" alt="Header photo for home page">
+</a>
 
 ### Home 
 
 Here, a note explaining the types of tennis courts available is displayed in three different columns.
 It also highlights the nature of the courts and placement in relation to the surfaces which are clay court,
 hard court and grass court. 
-These three columns are displayed one at a time with a javascript code. The second part of home page is made of pictures of the three different courts. The names of the courts hover the pictures on moust over.
+These three columns are displayed one at a time with a javascript code as shown below:
+
+<a>
+<img src="assets/images/pg1s1.jpeg" alt="Section one of home page">
+</a>
+
+
+The second part of home page is made of pictures of the three different courts. The names of the courts hover the pictures on moust over. The picture below demonstrates the mouse over of the first picture.
+
+<a>
+<img src="assets/images/pg1s2.jpeg" alt="Section two of home page">
+</a>
+
 
 ### Services
 
 The services page is the second page. It indicates that the club is providing training to children, 
-recreational players, and competitive players. Basically, the services are for children and adults. The three different training models are well explaine in this section. The second part of this page provides pictures of the different trainees. A text message of the trainee type hover each picture on mouse over.
+recreational players, and competitive players. Basically, the services are for children and adults. The three different training models are well explaine in this section. These three models are presented in three columns with one being displace at a time with javascript code as presented below:
+
+<a>
+<img src="assets/images/pg2s1.jpeg" alt="Section one of second page">
+</a>
+
+The second part of this page provides pictures of the different trainees. A text message of the trainee type hover each picture on mouse over. In same light, the picture below illustrates the mouse over effect on the first picture.
+
+<a>
+<img src="assets/images/pg2s2.jpeg" alt="Section two of second page">
+</a>
 
 ### Bookin Time
 
-This is the third and final page. The first column in section one contains a map location for Gothenburg town and a video example of tennis exercise drill. The second column provides a form which registers the customer and book time with a trainer. The second section is made up of pictures of other facilities in the club: play ground, swimming pool, and a gym/fitness. The names equally hover the pictures.
+This is the third and final page. The first column in section one contains a map location for Gothenburg town and a video example of tennis exercise drill. The second column provides a form which registers the customer and book time with a trainer. The following picture demonstrates this:
+
+<a>
+<img src="assets/images/pg3s1.jpeg" alt="Section one page 3">
+</a>
+
+The second section is made up of pictures of other facilities in the club: play ground, swimming pool, and a gym/fitness. The names equally hover the pictures. The hover effect can be seen on the second photo as viz:
+
+<a>
+<img src="assets/images/pg3s2.jpeg" alt="Section two page 3">
+</a>
 
 
 ### Contact information
@@ -33,13 +70,19 @@ The address, email address and telephone number of the club is include in the fo
 
 ### The footer
 
-The footer contains three different features in three columns. The first column is made up of links to social media websites which opens in a new page: Twitter, YouTube, Instagram, Facebook, and a copyrights statement. The second and third sections contains the contact information and opening hours respectively.
+The footer contains three different features in three columns. The first column is made up of links to social media websites which opens in a new page: Twitter, YouTube, Instagram, Facebook, and a copyrights statement. The second and third sections contains the contact information and opening hours respectively. This is presented below:
+
+<a>
+<img src="assets/images/fpg.jpeg" alt="Footer section">
+</a>
 
 ## Testing
 
 ### Within Page
 
-The links included in the page works perfectly.The book time form also shows a positive respond to use. 
+The links included in the page works perfectly.The book time form also shows a positive respond to use. Form validation is prevented if appropriate informatiion is not given. This is demonstrated as thus:
+
+
 
 ### Lighthouse
 
