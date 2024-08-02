@@ -13,9 +13,10 @@ The header includes the name : Eyongtarh Tennis Club as logo. This logo has a li
 
 ### Home 
 
-Here, a not explaining the types of tennis courts available is displayed in three different columns.
+Here, a note explaining the types of tennis courts available is displayed in three different columns.
 It also highlights the nature of the courts and placement in relation to the surfaces which are clay court,
-hard court and grass court. The second part of home page is made of pictures of the three different courts. The names of the courts hover the pictures on moust over.
+hard court and grass court. 
+These three columns are displayed one at a time with a javascript code. The second part of home page is made of pictures of the three different courts. The names of the courts hover the pictures on moust over.
 
 ### Services
 
