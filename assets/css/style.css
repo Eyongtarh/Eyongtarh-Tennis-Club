@@ -198,7 +198,14 @@ button {
     cursor: pointer;
     box-shadow: 0 0 20px 0px rgba(243, 94, 94, 0.3);
 }
+  
+#serbut button {
+    background-color: #008000;
+}
 
+#serbut button:hover {
+    background-color: #bd2020;
+}
 button:hover {
     background: #bd2020;
     transition: 0.5s;

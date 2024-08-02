@@ -13,12 +13,14 @@ function hideMenu() {
 /* To toggle pages in section one: index.html and service.html */
 
 function showPage(coach) {
+    /*select all the pages not to display*/
     const nodeList = document.querySelectorAll(".trainer");
     for (let i = 0; i < nodeList.length; i++) {
         nodeList[i].style.display = "none";
     }
     document.querySelector(`#${coach}`).style.display = "block";
 }
+/*select the list to display on button click*/
 document.addEventListener('DOMContentLoaded', function () {
     const nodeList = document.querySelectorAll("button");
     for (let i = 0; i < nodeList.length; i++) {
