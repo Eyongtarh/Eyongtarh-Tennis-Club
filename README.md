@@ -205,14 +205,12 @@ I used font awesome and Google fonts.
 
 
 #### Tools
-
-    - [FreeConvert](https://www.freeconvert.com/video-compressor) was used to edit video.
-    - [Compress JPEG](https://compressjpeg.com/) was used to compress JPEG images.
-    - [IMGonline.com.ua](https://www.imgonline.com.ua/eng/resize-image.php) was used to resize images.
+ - [FreeConvert](https://www.freeconvert.com/video-compressor) was used to edit video.
+ - [Compress JPEG](https://compressjpeg.com/) was used to compress JPEG images.
+ - [IMGonline.com.ua](https://www.imgonline.com.ua/eng/resize-image.php) was used to resize images.
     
 
 ## Acknowledgments
 
 - [Code Institute](https://codeinstitute.net/) tutors and Mentor for their continues support.
-- [Kevin Powell](https://www.youtube.com/user/KepowOb) for his amazing CSS tutorials.
-
+- 

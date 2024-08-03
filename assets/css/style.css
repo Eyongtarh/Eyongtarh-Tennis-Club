@@ -436,11 +436,12 @@ form div input {
 }
 
 /* Style to remove toggle tags from screen size greater than 768px */
-#tog {
+
+.menu-close {
     display: none;
 }
 
-#togg {
+.menu-open {
     display: none;
 }
 
@@ -470,35 +471,61 @@ form div input {
     }
 
     #nav-bar {
-        position: absolute;
-        background: #bd2020;
+        position: fixed;
+        background: #ffffff;
         height: 100vh;
-        width: 200px;
+        width: 40%;
         top: 0;
-        right: -200px;
-        text-align: left;
+        right: -40%;
+        border-left: 1px solid #000000;
         z-index: 2;
-        transition: 1s;
     }
 
-    nav i {
+    #nav-bar.active {
+        position: fixed;
+        background: #ffffff;
+        height: 100vh;
+        width: 40%;
+        top: 0;
+        right: 0;
+        border-left: 1px solid #000000;
+        z-index: 2;
+    }
+
+    nav ul {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin-top: 2rem;
+    }
+
+    #nav-bar ul li a {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .menu-close {
         display: block;
-        color: #ffffff;
-        margin: 10px;
-        font-size: 26px;
+        background: transparent;
+        color: #000000;
+        font-size: 30px;
         cursor: pointer;
+        margin-right: 30px;
+        margin-top: 10px;
     }
 
-    #nav-bar ul {
-        padding: 30px;
-    }
-
-    #tog {
+    .menu-open {
         display: block;
-    }
-
-    #togg {
-        display: block;
+        background: transparent;
+        color: #ffffff;
+        font-size: 30px;
+        cursor: pointer;
+        margin-right: 30px;
     }
 
     .c-types {

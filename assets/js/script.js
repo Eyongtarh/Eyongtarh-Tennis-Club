@@ -1,5 +1,5 @@
 /* Decleration of variable To toggle menu bar*/
-const navBar = document.getElementById("nav-bar");
+
 /* Decleration of variable To toggle pages in main section one pasge index.html/service.html */
 const nodeList = document.querySelectorAll(".trainer");
 
@@ -21,17 +21,20 @@ const pass2Error = document.getElementById("pass2-error");
 const emailError = document.getElementById("email-error");
 const serviceError = document.getElementById("service-error");
 
-
 /* Decleration of variable To toggle the Menu bar open and close */
 
+const menuOpen = document.querySelector('.menu-open');
+const menuClose = document.querySelector('.menu-close');
+const navBar = document.querySelector('#nav-bar');
 /* To toggle the Menu bar open and close */
-function showMenu() {
-   navBar.style.right = "0";
+/* The element click */
+menuOpen.addEventListener('click', menuTog);
+menuClose.addEventListener('click', menuTog);
+/* to set the click function active */
+function menuTog(e) {
+   navBar.classList.toggle("active")
 }
 
-function hideMenu() {
-   navBar.style.right = "-200px";
-};
 
 /* To toggle pages in section one: index.html and service.html */
 
