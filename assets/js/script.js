@@ -8,9 +8,7 @@ Decleration of variable To toggle color on Read More anchor in header
 */
 const readMore = document.getElementById("readm");
 const readmColor = ["blue", "green"];
-/* 
-Decleration of variable To validate form in book.html 
-*/
+// Decleration of variable To validate form in book.html 
 const form = document.getElementById("booktime");
 const nameInputf = document.getElementById("first_name");
 const nameInputl = document.getElementById("last_name");
@@ -31,27 +29,31 @@ const menuOpen = document.querySelector('.menu-open');
 const menuClose = document.querySelector('.menu-close');
 const navBar = document.querySelector('#nav-bar');
 //To toggle the Menu bar open and close
-/* 
-The element click 
-*/
+
+/**
+ * The element click
+ */
 menuOpen.addEventListener('click', menuTog);
 menuClose.addEventListener('click', menuTog);
-/* 
-to set the click function active 
-*/
+
+/**
+ * to set the click function active 
+ */
 function menuTog(e) {
    navBar.classList.toggle("active")
 }
-// To toggle pages in section one: index.html and service.html
+
+/**
+ * To toggle pages in section one: index.html and service.html
+ */
 function showPage(coach) {
-   /*
-   select all the pages not to display
-   */
+   // select all the pages not to display
    for (let i = 0; i < nodeList.length; i++) {
       nodeList[i].style.display = "none";
    }
    document.querySelector(`#${coach}`).style.display = "block";
 }
+
 /*s
 elect the list to display on button click
 */
@@ -136,7 +138,7 @@ form.addEventListener("submit", (event) => {
       event.preventDefault();
    }
    /* if password2 value is empty, withh all spaces removed, error message will display and form validation is prevented 
-   */
+    */
    if (passWord2.value.trim() === "") {
       pass2Error.textContent = "Please re-enter your password.";
       passWord2.classList.add("error");
