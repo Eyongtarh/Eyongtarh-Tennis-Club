@@ -82,29 +82,30 @@ The footer contains three different features in three columns. The first column 
 
 The links included in the page works perfectly.The book time form also shows a positive respond to use. Form validation is prevented if appropriate informatiion is not given. This is demonstrated as thus:
 
-
+<a>
+<img src="assets/images/pw.jpeg" alt="Form validation prevention">
+</a>
 
 ### Lighthouse
 
-The accessibility rating in lighthouse is OK. The lighthouse test for the home page is shown below :
+The accessibility rating for page one in lighthouse is OK. The lighthouse test for the home page is shown below :
 
 <a>
-<img src="assets/images/page1.jpeg" alt="" width="400" height="300" border="2">
+<img src="assets/images/lh1.jpeg" alt="Lighthouse test for page 1">
 </a>
 
 
+The accessibility rating for page 2 in lighthouse is OK. The lighthouse test for the service page is shown below :
 
-The accessibility rating in lighthouse is OK. The lighthouse test for the service page is shown below :
 <a>
-<img src="assets/images/page2.jpeg" alt="" width="400" height="300" border="2">
+<img src="assets/images/lh2.jpeg" alt="Lighthouse test for page 1">
 </a>
 
 
+The accessibility rating for page 3 in lighthouse is OK. The lighthouse test for the book time page is shown below :
 
-
-The accessibility rating in lighthouse is OK. The lighthouse test for the home page is shown below :
 <a>
-<img src="assets/images/page3.jpeg" alt="" width="400" height="300" border="2">
+<img src="assets/images/lh3.jpeg" alt="Lighthouse test for page 1">
 </a>
 
 
@@ -113,49 +114,105 @@ The accessibility rating in lighthouse is OK. The lighthouse test for the home p
 The site works on different screen sizes and therefore, it is fully responsive. The ui.dev/amiresponsive was used to test for site responsiveness. A photo and a link is presented below:
 
 <a>
-<img src="assets/images/respons.jpeg" alt="" width="400" height="300" border="2">
+<img src="assets/images/respons.jpeg" alt="Responsive Design">
 </a>
 
 Check out <a href="https://ui.dev/amiresponsive?url=https://eyongtarh.github.io/Eyongtarh-Tennis-Club/" target="_blank">Site Responsiveness</a> by ui.dev/amiresponsive.
 
 ### Validation Testing
 
--The HTML validator returned no errors when passing through the official W3C validator. The link to input the values to be tested is below.
+-The HTML validator for the three pages returned no errors when passing through the official W3C validator. 
+Page one:
 
-Check out <a href="https://validator.w3.org/detailed.html" target="_blank">HTML Validator</a>
+<a>
+<img src="assets/images/pg1validator.jpeg" alt="Page one, w3 validator">
+</a>
+
+
+Page Two:
+
+<a>
+<img src="assets/images/pg2validator.jpeg" alt="Page two, w3 validator">
+</a>
+
+
+Page Three:
+
+<a>
+<img src="assets/images/pg3validator.jpeg" alt="Page three, w3 validator">
+</a>
+
+
 
 -The CSS validator shows no errors when passing through the official (Jigsaw) validator.
-<a href="http://jigsaw.w3.org/css-validator/check/referer">
-    <img style="border:0;width:88px;height:31px"
-        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-        alt="Valid CSS!" />
-    </a>
+<a>
+<img src="assets/images/cssvalidator.jpeg" alt="Css jigsaw validator">
+</a>
+
 
 -The Js validator is also without errors.
 
-### Unfixed Bugs
+### Bugs
+
+#### Unfixed Bugs
 
 I have not noticed any unfixed bug at the moment.
 
-## Deployment
+#### Fixed Bugs
+
+- The welcome message in the header interfered with the logo in screen with max-width of 768px. This was remedied by changing the value of transform translate along the y-axis from -50 to -40.
+
+- The columns in the pages did not fit in smaller screen sizes. This was resolved by setting flex-direction of the divs to column.
+
+- The video also overlaped in smaller screen sizes. The solution was to reduce the width and hieght of the video.
+
+
+
+
+## Technologies Used
+- HTML is used as the framework of the site
+- CSS is applied for the styles and site layout
+- Javacsript is used in webdevelopment, application and presentation.
+- VSCode is the used for writing the and editing the codes.
+- Git and Github used for version control and hosting website codes respectively.
+
+## Deployment to GitHub Pages
 
 This site is deployed to GitHub pages. Theprocedure is viz:
--Go to GitHub repository and click on Settings.
--At the left side, click on pages.
--At the source section drop-down menu, select the Master Branch
--At this point, click save, the page will be automatically refreshed.
--A link will be available and indicate the successful deployment.
--If not , refresh the page.
+- Go to GitHub repository and click on Settings.
+- At the left side, click on pages.
+- At the source section drop-down menu, select the Master Branch
+- At this point, click save, the page will be automatically refreshed.
+- A link will be available and indicate the successful deployment.
+- If not , refresh the page.
+
+## Future improvements
+- More content can be added.
+- There is also a need to make appropriate comments within my code lines and commit statement.
+- The form can be made to validate to a server in the long run.
 
 ## Credits
 
 I got some help from the Love running project, course conten, Wikipedia , Kevin easy tutorials, Ullevi tennis club and geeksforgeeks.org website.
 
-## Content
+### Content
 
 I used font awesome and Google fonts.
 
-## Media
+### Media
+ - Background images, Favicon image, and images used within pages are from  [Pexels](https://www.pexels.com/).
+ - I also used personal images and video.
 
-Favicon image, background images and images used within pages are from 
-pixel, google, and my personal images/video.
+
+#### Tools
+
+    - [FreeConvert](https://www.freeconvert.com/video-compressor) was used to edit video.
+    - [Compress JPEG](https://compressjpeg.com/) was used to compress JPEG images.
+    - [IMGonline.com.ua](https://www.imgonline.com.ua/eng/resize-image.php) was used to resize images.
+    
+
+## Acknowledgments
+
+- [Code Institute](https://codeinstitute.net/) tutors and Mentor for their continues support.
+- [Kevin Powell](https://www.youtube.com/user/KepowOb) for his amazing CSS tutorials.
+
