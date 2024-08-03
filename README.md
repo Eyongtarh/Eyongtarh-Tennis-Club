@@ -160,11 +160,11 @@ I have not noticed any unfixed bug at the moment.
 
 #### Fixed Bugs
 
-- The welcome message in the header interfered with the logo in screen with max-width of 768px. This was remedied by changing the value of transform translate along the y-axis from -50 to -40.
+- The welcome message in the header interfered with the logo in screen size with max-width of 768px. This was remedied by changing the value of transform translate along the y-axis from -50 to -40.
 
 - The columns in the pages did not fit in smaller screen sizes. This was resolved by setting flex-direction of the divs to column.
 
-- The video also overlaped in smaller screen sizes. The solution was to reduce the width and hieght of the video.
+- The video also overlaped in smaller screen sizes. The solution was to reduce the width and height of the video.
 
 
 
@@ -213,4 +213,4 @@ I used font awesome and Google fonts.
 ## Acknowledgments
 
 - [Code Institute](https://codeinstitute.net/) tutors and Mentor for their continues support.
-- 
+- [Geeksforgeeks](https://www.geeksforgeeks.org/) tutorials to toggle menu bar.
