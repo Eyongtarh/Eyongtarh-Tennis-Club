@@ -195,9 +195,9 @@ This site is deployed to GitHub pages. Theprocedure is viz:
 
 I got some help from the Love running project, course conten, Wikipedia , Kevin easy tutorials, Ullevi tennis club and geeksforgeeks.org website.
 
-### Content
+### Content 
 
-I used font awesome and Google fonts.
+I used font awesome and Google fonts.  
 
 ### Media
  - Background images, Favicon image, and images used within pages are from  [Pexels](https://www.pexels.com/).
