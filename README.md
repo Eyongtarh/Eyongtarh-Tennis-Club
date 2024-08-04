@@ -181,7 +181,7 @@ I have not noticed any unfixed bug at the moment.
 This site is deployed to GitHub pages. Theprocedure is viz:
 - Go to GitHub repository and click on Settings.
 - At the left side, click on pages.
-- At the source section drop-down menu, select the Master Branch
+- At the source section drop-down menu, select the Main Branch
 - At this point, click save, the page will be automatically refreshed.
 - A link will be available and indicate the successful deployment.
 - If not , refresh the page.
@@ -200,7 +200,7 @@ I got some help from the Love running project, course conten, Wikipedia , Kevin 
 I used font awesome and Google fonts.  
 
 ### Media
- - Background images, Favicon image, and images used within pages are from  [Pexels](https://www.pexels.com/).
+ - Background images, Favicon image, and images used within pages are from: [Pexels](https://www.pexels.com/).
  - I also used personal images and video.
 
 
@@ -208,7 +208,8 @@ I used font awesome and Google fonts.
  - [FreeConvert](https://www.freeconvert.com/video-compressor) was used to edit video.
  - [Compress JPEG](https://compressjpeg.com/) was used to compress JPEG images.
  - [IMGonline.com.ua](https://www.imgonline.com.ua/eng/resize-image.php) was used to resize images.
-    
+ - [FAVICON GENERATOR](https://favicon.io/) was used to generate the favicon.
+
 
 ## Acknowledgments
 
