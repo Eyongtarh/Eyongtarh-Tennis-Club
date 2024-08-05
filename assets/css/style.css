@@ -453,6 +453,17 @@ form div input {
     }
 
     #booktime {
+        padding: 10px 300px;
+    }
+}
+
+/* media query: (1024px and down) */
+@media(max-width: 1024px) {
+    .c-types {
+        flex-direction: column;
+    }
+
+    #booktime {
         padding: 10px 200px;
     }
 }
@@ -560,6 +571,18 @@ form div input {
     }
 
     #booktime {
-        padding: 10px 20px;
+        padding: 10px 70px;
     }
+}
+
+/* media query: (480px and down) */
+@media(max-width: 480px) {
+    .c-types {
+        flex-direction: column;
+    }
+
+    #booktime {
+        padding: 10px 5px;
+    }
+
 }

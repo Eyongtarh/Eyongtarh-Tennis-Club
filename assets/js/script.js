@@ -1,4 +1,4 @@
-/*  */
+/* Jshint */
 /* 
 Decleration of variable To toggle pages in main section one pasge index.html/service.html 
 */
