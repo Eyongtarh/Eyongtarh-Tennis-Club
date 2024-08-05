@@ -114,19 +114,19 @@ The accessibility rating for page 3 in lighthouse is OK. The lighthouse test for
 The site works on different screen sizes and therefore, it is fully responsive. The Responsive viewer was used to test for site responsiveness. A photo of page 1, page 2 and page 3 are shown below repectively.
 
 <a>
-<img src="assets/images/iPhone-14-Pro-395x3447.png" alt="Responsive Design iphone 14" height="600">
-<img src="assets/images/iPhone-14-Pro-Max-430x3402.png" alt="Responsive Design iphone 14 pro-max" height="600">
-<img src="assets/images/Pixel-7-Pro-480x3287.png" alt="Responsive Design" height="600">
-<img src="assets/images/iPad-Air-5-820x2786.png" alt="Responsive Design ipad Air 5" height="600">
-<img src="assets/images/Macbook-Air-1559x1723.png" alt="Responsive Design Mac Air" height="600">
+<img src="assets/images/iPhone-14-Pro-395x3447.png" alt="Responsive Design iphone 14" height="500">
+<img src="assets/images/iPhone-14-Pro-Max-430x3402.png" alt="Responsive Design iphone 14 pro-max" height="500">
+<img src="assets/images/Pixel-7-Pro-480x3287.png" alt="Responsive Design" height="500">
+<img src="assets/images/iPad-Air-5-820x2786.png" alt="Responsive Design ipad Air 5" height="500">
+<img src="assets/images/Macbook-Air-1559x1723.png" alt="Responsive Design Mac Air" height="500">
 </a>
 
-<a>
-<img src="assets/images/iPhone-14-Pro-395x3447.png" alt="Responsive Design iphone 14" height="600">
-<img src="assets/images/iPhone-14-Pro-Max-430x3402.png" alt="Responsive Design iphone 14 pro-max" height="600">
-<img src="assets/images/Pixel-7-Pro-480x3287.png" alt="Responsive Design" height="600">
-<img src="assets/images/iPad-Air-5-820x2786.png" alt="Responsive Design ipad Air 5" height="600">
-<img src="assets/images/Macbook-Air-1559x1723.png" alt="Responsive Design Mac Air" height="600">
+<<a>
+<img src="assets/images/iPhone-14.png" alt="Responsive Design iphone 14" height="500">
+<img src="assets/images/iPhone-14-Pro-Max-430x3462.png" alt="Responsive Design iphone 14 pro-max" height="500">
+<img src="assets/images/Pixel-7-Pro-.png" alt="Responsive Design" height="500">
+<img src="assets/images/iphone-5.png" alt="Responsive Design ipad Air 5" height="500">
+<img src="assets/images/Macbook-Air-.png" alt="Responsive Design Mac Air" height="500">
 </a>
 Check out <a href="https://responsiveviewer.org/" target="_blank">Site Responsiveness</a> by Responsive viewer.
 
