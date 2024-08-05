@@ -6,7 +6,7 @@ const nodeList = document.querySelectorAll(".trainer");
 /* 
 Decleration of variable To toggle color on Read More anchor in header 
 */
-const readMore = document.getElementById("readm");
+const readMore = document.getElementById("rdmore");
 const readmColor = ["blue", "green"];
 // Decleration of variable To validate form in book.html 
 const form = document.getElementById("booktime");
@@ -40,7 +40,7 @@ menuClose.addEventListener('click', menuTog);
  * to set the click function active 
  */
 function menuTog(e) {
-   navBar.classList.toggle("active")
+   navBar.classList.toggle("active");
 }
 
 /**
@@ -63,27 +63,9 @@ document.addEventListener('DOMContentLoaded', function () {
    for (let i = 0; i < nodeList.length; i++) {
       nodeList[i].onclick = function () {
          showPage(this.dataset.coach);
-      }
+      };
    }
 });
-
-/**
- * To toggle background colors: body
- */
-function color1() {
-   document.bgColor = "#e4ecbc"
-   window.setTimeout("color2()", 3000)
-};
-
-function color2() {
-   document.bgColor = "#eae4cc"
-   window.setTimeout("color3()", 3000)
-};
-
-function color3() {
-   document.bgColor = "#edf2d2"
-   window.setTimeout("color1()", 3000)
-};
 
 /**
  * Toggle color on Read More anchor in header

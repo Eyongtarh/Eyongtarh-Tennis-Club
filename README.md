@@ -121,7 +121,8 @@ The site works on different screen sizes and therefore, it is fully responsive. 
 <img src="assets/images/Macbook-Air-1559x1723.png" alt="Responsive Design Mac Air" height="500">
 </a>
 
-<<a>
+
+<a>
 <img src="assets/images/iPhone-14.png" alt="Responsive Design iphone 14" height="500">
 <img src="assets/images/iPhone-14-Pro-Max-430x3462.png" alt="Responsive Design iphone 14 pro-max" height="500">
 <img src="assets/images/Pixel-7-Pro-.png" alt="Responsive Design" height="500">
@@ -129,13 +130,16 @@ The site works on different screen sizes and therefore, it is fully responsive. 
 <img src="assets/images/Macbook-Air-.png" alt="Responsive Design Mac Air" height="500">
 </a>
 
-<<a>
+
+<a>
 <img src="assets/images/iPhone-14-Prom3.png" alt="Responsive Design iphone 14" height="500">
 <img src="assets/images/iPhone-14-Prom3.png" alt="Responsive Design iphone 14 pro-max" height="500">
 <img src="assets/images/Pixel-7-Pro3.png" alt="Responsive Design" height="500">
 <img src="assets/images/ip5.png" alt="Responsive Design ipad Air 5" height="500">
 <img src="assets/images/Macbook-Air3.png" alt="Responsive Design Mac Air" height="500">
 </a>
+
+
 Check out <a href="https://responsiveviewer.org/" target="_blank">Site Responsiveness</a> by Responsive viewer.
 
 ### Validation Testing
