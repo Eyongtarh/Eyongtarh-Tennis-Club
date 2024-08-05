@@ -205,8 +205,10 @@ I have not noticed any unfixed bug at the moment.
 - HTML is used as the framework of the site
 - CSS is applied for the styles and site layout
 - Javacsript is used in webdevelopment, application and presentation.
-- VSCode is the used for writing the and editing the codes.
+- Gitpod is used for writing the and editing the codes.
 - Git and Github used for version control and hosting website codes respectively.
+- W3C validator was used to validate the html and css codes.
+- Jshint was used to validate the javascript.
 
 ## Deployment to GitHub Pages
 
@@ -247,3 +249,4 @@ I used font awesome and Google fonts.
 
 - [Code Institute](https://codeinstitute.net/) tutors and Mentor for their continues support.
 - [Geeksforgeeks](https://www.geeksforgeeks.org/) tutorials to toggle menu bar.
+- [Conor Bailey](https://www.youtube.com/watch?v=mrLtDrTlokY) for the inspiration of hamberger icon menu.
