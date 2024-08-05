@@ -168,12 +168,18 @@ Page Three:
 
 
 -The CSS validator shows no errors when passing through the official (Jigsaw) validator.
+
 <a>
 <img src="assets/images/cssvalidator.jpeg" alt="Css jigsaw validator">
 </a>
 
 
--The Js validator is also without errors.
+-The Js validator is also without errors with some warnings using Jshint validator.
+
+<a>
+<img src="assets/images/jsh.jpeg" alt="Css jigsaw validator">
+</a>
+
 
 ### Bugs
 
@@ -183,11 +189,14 @@ I have not noticed any unfixed bug at the moment.
 
 #### Fixed Bugs
 
-- The welcome message in the header interfered with the logo in screen size with max-width of 768px. This was remedied by changing the value of transform translate along the y-axis from -50 to -40.
+- The welcome message in the header interfered with the logo in screen size with max-width of 768px. 
+  * Solution: I changed the value of transform translate along the y-axis from -50 to -40 and the probem was fixed.
 
-- The columns in the pages did not fit in smaller screen sizes. This was resolved by setting flex-direction of the divs to column.
+- The columns in the pages did not fit in smaller screen sizes. 
+  * Solution: This was resolved by setting flex-direction of the divs to column.
 
-- The video also overlaped in smaller screen sizes. The solution was to reduce the width and height of the video.
+- The video also overlaped in smaller screen sizes.
+  * Solution: The remedy was to reduce the width and height of the video.
 
 
 
