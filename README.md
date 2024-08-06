@@ -259,5 +259,5 @@ I used font awesome and Google fonts.
 ## Acknowledgments
 
 - [Code Institute](https://codeinstitute.net/) tutors and Mentor for their continues support.
-- [Geeksforgeeks](https://www.geeksforgeeks.org/) tutorials to toggle menu bar.
+- [Geeksforgeeks](https://www.geeksforgeeks.org/) tutorials to toggle divs in pages.
 - [Conor Bailey](https://www.youtube.com/watch?v=mrLtDrTlokY) for the inspiration of hamberger icon menu.
