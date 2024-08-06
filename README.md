@@ -142,6 +142,14 @@ The site works on different screen sizes and therefore, it is fully responsive. 
 
 Check out <a href="https://responsiveviewer.org/" target="_blank">Site Responsiveness</a> by Responsive viewer.
 
+<a>
+<img src="assets/images/respn.jpeg" alt="Responsive layout">
+</a>
+
+
+Check out <a href="https://ui.dev/amiresponsive?url=https://eyongtarh.github.io/Eyongtarh-Tennis-Club/" target="_blank">Site Responsiveness</a> by ui.dev/amiresponsive.
+
+
 ### Validation Testing
 
 -The HTML validator for the three pages returned no errors when passing through the official W3C validator. 
@@ -209,6 +217,7 @@ I have not noticed any unfixed bug at the moment.
 - Git and Github used for version control and hosting website codes respectively.
 - W3C validator was used to validate the html and css codes.
 - Jshint was used to validate the javascript.
+- Responsive Viewer was used to analise the website responsiveness.
 
 ## Deployment to GitHub Pages
 
@@ -243,6 +252,8 @@ I used font awesome and Google fonts.
  - [Compress JPEG](https://compressjpeg.com/) was used to compress JPEG images.
  - [IMGonline.com.ua](https://www.imgonline.com.ua/eng/resize-image.php) was used to resize images.
  - [FAVICON GENERATOR](https://favicon.io/) was used to generate the favicon.
+ - [bytes](https://ui.dev/amiresponsive?url=https://eyongtarh.github.io/Eyongtarh-Tennis-Club/" ) was used to test website 
+   responsiveness.
 
 
 ## Acknowledgments
